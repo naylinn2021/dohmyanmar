@@ -29,3 +29,18 @@ http://203.81.84.130/hls/mwd_variety/index.m3u8
 #EXTINF:-1 tvg-id="MRTV4.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitcgKT4OY44ARo-57ErjSk6auxnz446FOGCPoC-gqunnb84_CDzZ5vg&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV4
 https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/index.m3u8
 referer=https://www.pyoneplay.com/
+
+#EXTINF:-1 tvg-id="Channel7.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtcO3Mx_afWYhM4ryAp8-sspgvzbQkgpGBNP5iwFV3inK0l4nEDdqoA&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",channel7
+https://live.pyoneplay.com/live/01m2sr3kyn6bztz3xk02w3t7pn/index.m3u8
+referer=https://www.pyoneplay.com/
+
+
+
+
+
+
+
+
+
+
+
