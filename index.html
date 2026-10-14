@@ -3,458 +3,615 @@
 <html lang="my">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#101827">
-<title>My M3U Live TV</title>
+<title>Myanmar Live TV</title>
 
 <style>
-* {
-  box-sizing: border-box;
+:root {
+  --bg: #101827;
+  --panel: #1c2839;
+  --text: #f5f7fb;
+  --muted: #aebbd0;
+  --accent: #29c78a;
+  --border: #344358;
 }
+
+* { box-sizing: border-box; }
+
 body {
   margin: 0;
-  padding: 15px;
-  background: #101827;
-  color: #ffffff;
   font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
 }
-h2 {
-  color: #55d6ff;
+
+header {
+  padding: 24px 14px;
   text-align: center;
+  background: #172438;
+  border-bottom: 1px solid var(--border);
 }
-input, button {
-  width: 100%;
-  padding: 12px;
-  margin: 5px 0;
-  border: 0;
-  border-radius: 8px;
-  font-size: 15px;
+
+header h1 {
+  margin: 0 0 12px;
+  font-size: 25px;
 }
-input {
-  background: #ffffff;
-  color: #111827;
-}
-button {
-  background: #087ea4;
-  color: white;
-  cursor: pointer;
-}
-button:active {
-  opacity: 0.75;
-}
-.note {
-  color: #b8c7d9;
-  font-size: 13px;
-  line-height: 1.6;
-}
-#status {
-  color: #70e0a0;
+
+header p {
+  margin: 0;
+  color: var(--muted);
   font-size: 14px;
-  line-height: 1.5;
 }
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+
+.panel {
+  padding: 16px;
+  background: var(--panel);
+  border-radius: 18px;
+  margin-bottom: 24px;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+}
+
+input, select, button {
+  font: inherit;
+}
+
+input, select {
+  width: 100%;
+  min-height: 54px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #101827;
+  color: var(--text);
+  outline: none;
+}
+
+button {
+  border: 0;
+  border-radius: 11px;
+  padding: 13px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary, .play-btn {
+  background: var(--accent);
+  color: #071b13;
+}
+
+.secondary {
+  background: #344358;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#status {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+
+#status.success { color: #7ce7b6; }
+#status.error { color: #ff9b9b; }
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 22px 4px 14px;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+#count {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: right;
+}
+
 #channels {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+  gap: 12px;
 }
+
 .channel {
   min-width: 0;
-  background: #233149;
-  border-radius: 12px;
-  padding: 10px;
+  padding: 14px 10px;
+  border: 1px solid var(--border);
+  border-radius: 17px;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-.logo {
-  width: 75px;
-  height: 75px;
-  object-fit: contain;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 4px;
-  cursor: pointer;
+
+.logo-box {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.logo-box img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  background: white;
+  border-radius: 14px;
+}
+
+.logo-fallback {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: #344358;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .channel-name {
-  font-size: 14px;
-  min-height: 36px;
-  margin: 8px 0;
+  width: 100%;
+  min-height: 42px;
+  font-size: 16px;
+  font-weight: bold;
   overflow-wrap: anywhere;
 }
-.play-button {
+
+.channel-group {
+  margin: 4px 0 16px;
+  color: var(--muted);
   font-size: 13px;
-  padding: 10px 5px;
 }
-footer {
+
+.play-btn {
+  width: 100%;
+  min-height: 48px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.empty {
+  grid-column: 1 / -1;
+  padding: 30px 12px;
   text-align: center;
-  color: #8998ad;
+  color: var(--muted);
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+footer {
+  padding: 24px 12px;
+  text-align: center;
   font-size: 12px;
-  margin-top: 25px;
+  color: var(--muted);
+}
+
+@media (min-width: 600px) {
+  #channels {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .logo-box {
+    height: 110px;
+  }
+
+  .logo-box img {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+@media (min-width: 850px) {
+  #channels {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 </style>
 </head>
 
 <body>
 
-<h2>📺 My M3U Live TV</h2>
+<header>
+  <h1>📺 Myanmar Live TV</h1>
+  <p>Live Channels · News · Entertainment · Sports</p>
+</header>
 
-<!-- ===================================
-     M3U LINK ထည့်ရန်နေရာ
-     PLAYLIST_URL ကို မိမိ Link ဖြင့်
-     အစားထိုးနိုင်သည်။
-==================================== -->
+<main>
+  <section class="panel">
+    <div class="controls">
+      <button id="loadBtn" class="primary" type="button">
+        🔄 Load Channels
+      </button>
 
-<input
-  id="playlistUrl"
-  type="url"
-  placeholder="မိမိ M3U Playlist Link ထည့်ပါ"
-  autocomplete="url"
->
+      <input
+        id="search"
+        type="search"
+        placeholder="🔎 Channel အမည် ရှာရန်..."
+        aria-label="Channel ရှာရန်"
+      >
 
-<button onclick="loadPlaylist()">
-  📡 Load Playlist
-</button>
+      <select id="groupFilter" aria-label="Channel အမျိုးအစား">
+        <option value="">အားလုံးသော အမျိုးအစားများ</option>
+      </select>
+    </div>
 
-<button onclick="savePlaylist()">
-  💾 Save Playlist Link
-</button>
+    <div id="status" role="status" aria-live="polite">
+      Playlist ကို ဖတ်နေပါသည်...
+    </div>
+  </section>
 
-<p class="note">
-  Playlist Link ကို အပေါ်ကအကွက်ထဲ ထည့်ပြီး Load Playlist
-  ကိုနှိပ်ပါ။ GitHub မှာ တင်ထားတဲ့ ကိုယ်ပိုင် M3U Link
-  ကိုလည်း အသုံးပြုနိုင်ပါတယ်။
-</p>
+  <div class="section-title">
+    <h2>📡 Channel များ</h2>
+    <span id="count">0 Channels</span>
+  </div>
 
-<p id="status">Playlist URL ထည့်ပြီး စတင်ပါ။</p>
-
-<input
-  id="search"
-  type="search"
-  placeholder="🔍 Channel ရှာရန်..."
-  oninput="filterChannels()"
->
-
-<div id="channels"></div>
+  <section id="channels">
+    <div class="empty">Channel များကို ဖတ်နေပါသည်...</div>
+  </section>
+</main>
 
 <footer>
-  My M3U Live TV Player
+  Myanmar Live TV
 </footer>
 
 <script>
 "use strict";
 
-/* =========================================
-   (1) မိမိ M3U LINK ကို ဒီနေရာမှာ ထည့်ပါ။
+// မူရင်း Playlist Link
+// HTML ထဲမှာရှိနေသောကြောင့် အပြည့်အဝ လျှို့ဝှက်မထားနိုင်ပါ။
+const DEFAULT_PLAYLIST =
+  "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/doh_mm.m3u";
 
-   ဥပမာ:
-   const PLAYLIST_URL =
-     "https://example.com/playlist.m3u";
-
-   Link မထည့်ချင်သေးရင် "" အတိုင်းထားပါ။
-========================================= */
-
-const PLAYLIST_URL = "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/doh_mm.m3u";
-
-
-/* =========================================
-   (2) Network Stream Player Package ID
-========================================= */
-
+// သင်အသုံးပြုနေသော Network Stream Player package
 const PLAYER_PACKAGE = "com.genuine.leone";
 
+const loadBtn = document.getElementById("loadBtn");
+const searchInput = document.getElementById("search");
+const groupFilter = document.getElementById("groupFilter");
+const channelsBox = document.getElementById("channels");
+const statusBox = document.getElementById("status");
+const countBox = document.getElementById("count");
 
-/* =========================================
-   (3) စတင်ဖွင့်ချိန်မှာ Playlist URL ဖြည့်ပါ
-========================================= */
+let allChannels = [];
 
-const playlistInput =
-  document.getElementById("playlistUrl");
-
-const statusBox =
-  document.getElementById("status");
-
-const channelBox =
-  document.getElementById("channels");
-
-const searchInput =
-  document.getElementById("search");
-
-if (PLAYLIST_URL) {
-  playlistInput.value = PLAYLIST_URL;
-} else {
-  try {
-    playlistInput.value =
-      localStorage.getItem("m3u_playlist_url") || "";
-  } catch (e) {}
+function setStatus(message, type = "") {
+  statusBox.textContent = message;
+  statusBox.className = type;
 }
 
+function getAttribute(line, name) {
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-/* =========================================
-   (4) Playlist Link သိမ်းခြင်း
-========================================= */
+  const regex = new RegExp(
+    "(?:^|\\s)" + escaped + '="([^"]*)"',
+    "i"
+  );
 
-function savePlaylist() {
-  const url = playlistInput.value.trim();
+  const match = line.match(regex);
+  return match ? match[1].trim() : "";
+}
 
-  if (!url) {
-    statusBox.textContent =
-      "အရင်ဆုံး M3U Link ထည့်ပါ။";
+function parseM3U(text) {
+  const lines = text
+    .replace(/^\uFEFF/, "")
+    .split(/\r?\n/);
+
+  const channels = [];
+  let current = null;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    if (!line) continue;
+
+    if (line.startsWith("#EXTINF")) {
+      const comma = line.indexOf(",");
+      const metadata = comma >= 0
+        ? line.slice(0, comma)
+        : line;
+
+      const displayName = comma >= 0
+        ? line.slice(comma + 1).trim()
+        : "";
+
+      current = {
+        name:
+          displayName ||
+          getAttribute(metadata, "tvg-name") ||
+          "Unknown Channel",
+
+        logo: getAttribute(metadata, "tvg-logo"),
+
+        group:
+          getAttribute(metadata, "group-title") ||
+          "Other",
+
+        url: ""
+      };
+
+      continue;
+    }
+
+    // Comment နှင့် metadata များကို ကျော်ပါ။
+    if (line.startsWith("#")) continue;
+
+    if (/^(referer|http-user-agent|user-agent|cookie)\s*=/i.test(line)) {
+      continue;
+    }
+
+    if (/^https?:\/\//i.test(line) && current) {
+      current.url = line;
+      channels.push(current);
+      current = null;
+    }
+  }
+
+  return channels;
+}
+
+function buildGroups() {
+  const previous = groupFilter.value;
+
+  const groups = [
+    ...new Set(allChannels.map(channel => channel.group))
+  ].sort((a, b) => a.localeCompare(b));
+
+  groupFilter.replaceChildren();
+
+  const allOption = document.createElement("option");
+  allOption.value = "";
+  allOption.textContent = "အားလုံးသော အမျိုးအစားများ";
+  groupFilter.appendChild(allOption);
+
+  for (const group of groups) {
+    const option = document.createElement("option");
+    option.value = group;
+    option.textContent = group;
+    groupFilter.appendChild(option);
+  }
+
+  if (groups.includes(previous)) {
+    groupFilter.value = previous;
+  }
+}
+
+function makeChannelCard(channel) {
+  const card = document.createElement("article");
+  card.className = "channel";
+
+  const logoBox = document.createElement("div");
+  logoBox.className = "logo-box";
+
+  if (channel.logo) {
+    const img = document.createElement("img");
+
+    img.src = channel.logo;
+    img.alt = channel.name + " logo";
+    img.loading = "lazy";
+    img.referrerPolicy = "no-referrer";
+
+    img.addEventListener("error", () => {
+      const fallback = createFallback(channel.name);
+      img.replaceWith(fallback);
+    }, { once: true });
+
+    logoBox.appendChild(img);
+  } else {
+    logoBox.appendChild(createFallback(channel.name));
+  }
+
+  const name = document.createElement("div");
+  name.className = "channel-name";
+  name.textContent = channel.name;
+
+  const group = document.createElement("div");
+  group.className = "channel-group";
+  group.textContent = channel.group;
+
+  const play = document.createElement("button");
+  play.type = "button";
+  play.className = "play-btn";
+  play.textContent = "▶ Open in Player";
+
+  play.addEventListener("click", () => {
+    openExternalPlayer(channel.url);
+  });
+
+  // Copy Stream URL နှင့် Open Stream ခလုတ်များ မထည့်ထားပါ။
+  card.append(logoBox, name, group, play);
+
+  return card;
+}
+
+function createFallback(name) {
+  const fallback = document.createElement("div");
+  fallback.className = "logo-fallback";
+  fallback.textContent =
+    (name || "TV").trim().charAt(0).toUpperCase() || "T";
+
+  return fallback;
+}
+
+function openExternalPlayer(streamUrl) {
+  try {
+    const parsed = new URL(streamUrl);
+
+    if (!["http:", "https:"].includes(parsed.protocol)) {
+      setStatus("Stream URL အမျိုးအစား မမှန်ပါ။", "error");
+      return;
+    }
+
+    const scheme = parsed.protocol.slice(0, -1);
+
+    const intentUrl =
+      "intent://" +
+      streamUrl.replace(/^https?:\/\//i, "") +
+      "#Intent;scheme=" + scheme +
+      ";package=" + PLAYER_PACKAGE +
+      ";action=android.intent.action.VIEW;end";
+
+    setStatus(
+      "Player ကို ဖွင့်ရန် ကြိုးစားနေပါသည်။ " +
+      "မဖွင့်နိုင်ပါက Player App ကို စစ်ဆေးပါ။"
+    );
+
+    window.location.href = intentUrl;
+
+  } catch (error) {
+    console.error("Player error:", error);
+    setStatus("Stream URL ကို ဖွင့်မရပါ။", "error");
+  }
+}
+
+function renderChannels() {
+  const query = searchInput.value.trim().toLowerCase();
+  const selectedGroup = groupFilter.value;
+
+  const filtered = allChannels.filter(channel => {
+    const matchesName =
+      channel.name.toLowerCase().includes(query);
+
+    const matchesGroup =
+      !selectedGroup || channel.group === selectedGroup;
+
+    return matchesName && matchesGroup;
+  });
+
+  channelsBox.replaceChildren();
+
+  countBox.textContent =
+    filtered.length + " / " +
+    allChannels.length + " Channels";
+
+  if (filtered.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+
+    empty.textContent = allChannels.length
+      ? "ရှာဖွေထားသော Channel မတွေ့ပါ။"
+      : "Channel များ မရှိသေးပါ။";
+
+    channelsBox.appendChild(empty);
     return;
   }
 
-  try {
-    localStorage.setItem("m3u_playlist_url", url);
-    statusBox.textContent =
-      "Playlist Link ကို သိမ်းပြီးပါပြီ။";
-  } catch (e) {
-    statusBox.textContent =
-      "Link မသိမ်းနိုင်ပါ။ Browser Storage ကို စစ်ပါ။";
+  const fragment = document.createDocumentFragment();
+
+  for (const channel of filtered) {
+    fragment.appendChild(makeChannelCard(channel));
   }
+
+  channelsBox.appendChild(fragment);
 }
-
-
-/* =========================================
-   (5) Playlist ဖတ်ခြင်း
-========================================= */
 
 async function loadPlaylist() {
-  const url = playlistInput.value.trim();
+  loadBtn.disabled = true;
+  loadBtn.textContent = "Loading...";
 
-  channelBox.replaceChildren();
-
-  if (!url) {
-    statusBox.textContent =
-      "M3U Playlist Link ထည့်ပေးပါ။";
-    return;
-  }
-
-  if (!/^https?:\/\//i.test(url)) {
-    statusBox.textContent =
-      "http:// သို့မဟုတ် https:// Link ကို ထည့်ပါ။";
-    return;
-  }
-
-  statusBox.textContent =
-    "Playlist ဖတ်နေသည်... ခဏစောင့်ပါ။";
+  setStatus("Playlist ကို ဖတ်နေပါသည်...");
 
   try {
-    const response = await fetch(url);
+    const response = await fetch(DEFAULT_PLAYLIST, {
+      method: "GET",
+      cache: "no-cache"
+    });
 
     if (!response.ok) {
       throw new Error("HTTP " + response.status);
     }
 
-    const content = await response.text();
+    const text = await response.text();
 
-    if (!content.trim()) {
-      throw new Error("Playlist ဗလာဖြစ်နေသည်");
+    if (!text.trim().startsWith("#EXTM3U")) {
+      throw new Error("ရရှိလာသောဖိုင်သည် M3U မဟုတ်ပါ။");
     }
 
-    const lines = content.split(/\r?\n/);
+    const parsedChannels = parseM3U(text);
 
-    let currentName = "Unknown Channel";
-    let currentLogo = "";
-    let channels = [];
-
-    for (const rawLine of lines) {
-      const line = rawLine.trim();
-
-      if (line.startsWith("#EXTINF:")) {
-        const commaIndex = line.lastIndexOf(",");
-
-        currentName = commaIndex >= 0
-          ? line.slice(commaIndex + 1).trim()
-          : "Unknown Channel";
-
-        const logoMatch =
-          line.match(/tvg-logo\s*=\s*["']([^"']*)["']/i);
-
-        currentLogo = logoMatch
-          ? logoMatch[1]
-          : "";
-
-      } else if (
-        line &&
-        !line.startsWith("#") &&
-        /^https?:\/\//i.test(line)
-      ) {
-        channels.push({
-          name: currentName || "Unknown Channel",
-          logo: currentLogo,
-          url: line
-        });
-
-        currentName = "Unknown Channel";
-        currentLogo = "";
-      }
+    if (parsedChannels.length === 0) {
+      throw new Error(
+        "Channel မတွေ့ပါ။ Playlist ပုံစံကို စစ်ဆေးပါ။"
+      );
     }
 
-    if (channels.length === 0) {
-      throw new Error("Channel မတွေ့ပါ");
-    }
+    allChannels = parsedChannels;
 
-    renderChannels(channels);
+    buildGroups();
+    renderChannels();
 
-    statusBox.textContent =
-      channels.length + " Channels တွေ့ရှိသည်။";
+    setStatus(
+      "အောင်မြင်ပါသည်။ Channel " +
+      allChannels.length +
+      " ခု ဖတ်ပြီးပါပြီ။",
+      "success"
+    );
 
   } catch (error) {
-    statusBox.textContent =
-      "Playlist ဖတ်မရပါ။ URL၊ Internet၊ CORS " +
-      "နဲ့ Playlist Format ကို စစ်ပါ။";
+    console.error("Playlist loading error:", error);
+
+    if (error instanceof TypeError) {
+      setStatus(
+        "Playlist ကို ဖတ်မရပါ။ အင်တာနက်၊ CORS ခွင့်ပြုချက်၊ " +
+        "သို့မဟုတ် Playlist Server ကို စစ်ဆေးပါ။",
+        "error"
+      );
+    } else {
+      setStatus("အမှား: " + error.message, "error");
+    }
+
+    if (allChannels.length === 0) {
+      channelsBox.replaceChildren();
+
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.textContent =
+        "Channel များ မပေါ်ပါ။ အပေါ်က အမှားစာကို စစ်ဆေးပါ။";
+
+      channelsBox.appendChild(empty);
+      countBox.textContent = "0 Channels";
+    }
+
+  } finally {
+    loadBtn.disabled = false;
+    loadBtn.textContent = "🔄 Load Channels";
   }
 }
 
+loadBtn.addEventListener("click", loadPlaylist);
+searchInput.addEventListener("input", renderChannels);
+groupFilter.addEventListener("change", renderChannels);
 
-/* =========================================
-   (6) Channel Logo နှင့် စာရင်းပြသခြင်း
-========================================= */
-
-let allChannels = [];
-
-function renderChannels(channels) {
-  allChannels = channels;
-  channelBox.replaceChildren();
-
-  for (const channel of channels) {
-    const card = document.createElement("div");
-    card.className = "channel";
-
-    const img = document.createElement("img");
-    img.className = "logo";
-    img.alt = channel.name;
-    img.loading = "lazy";
-
-    img.src = channel.logo || makeFallbackLogo();
-
-    img.onerror = () => {
-      img.onerror = null;
-      img.src = makeFallbackLogo();
-    };
-
-    img.onclick = () => openExternalPlayer(channel.url);
-
-    const name = document.createElement("div");
-    name.className = "channel-name";
-    name.textContent = channel.name;
-
-    const playButton = document.createElement("button");
-    playButton.className = "play-button";
-    playButton.textContent = "▶ ဖွင့်မယ်";
-
-    playButton.onclick = () => {
-      openExternalPlayer(channel.url);
-    };
-
-    card.appendChild(img);
-    card.appendChild(name);
-    card.appendChild(playButton);
-
-    channelBox.appendChild(card);
-  }
-
-  filterChannels();
-}
-
-
-/* =========================================
-   (7) Logo မရှိလျှင် အစားထိုးပုံ
-========================================= */
-
-function makeFallbackLogo() {
-  const svg =
-    '<svg xmlns="http://www.w3.org/2000/svg" ' +
-    'width="100" height="100">' +
-    '<rect width="100%" height="100%" fill="#233149"/>' +
-    '<text x="50%" y="55%" font-size="26" ' +
-    'text-anchor="middle" fill="white">TV</text>' +
-    '</svg>';
-
-  return "data:image/svg+xml;charset=UTF-8," +
-    encodeURIComponent(svg);
-}
-
-
-/* =========================================
-   (8) External Player ဖွင့်ရန်
-========================================= */
-
-function openExternalPlayer(streamUrl) {
-  if (!streamUrl) {
-    statusBox.textContent =
-      "Stream URL မရှိပါ။";
-    return;
-  }
-
-  /*
-    Android Intent URL ကို အသုံးပြုသည်။
-    Player App က ဒီ Intent ကို လက်ခံရမည်။
-    လက်ခံမှုကို Website က အာမမခံနိုင်ပါ။
-  */
-
-  const scheme = streamUrl.startsWith("https://")
-    ? "https"
-    : "http";
-
-  const streamAddress =
-    streamUrl.replace(/^https?:\/\//i, "");
-
-  const intentUrl =
-    "intent://" + streamAddress +
-    "#Intent;scheme=" + scheme +
-    ";package=" + PLAYER_PACKAGE +
-    ";action=android.intent.action.VIEW;end";
-
-  statusBox.textContent =
-    "Network Stream Player ဖွင့်ရန် ကြိုးစားနေသည်...";
-
-  window.location.href = intentUrl;
-}
-
-
-/* =========================================
-   (9) Channel ရှာဖွေခြင်း
-========================================= */
-
-function filterChannels() {
-  const query = searchInput.value
-    .trim()
-    .toLowerCase();
-
-  const filtered = allChannels.filter(channel =>
-    channel.name.toLowerCase().includes(query)
-  );
-
-  channelBox.replaceChildren();
-
-  for (const channel of filtered) {
-    const card = document.createElement("div");
-    card.className = "channel";
-
-    const img = document.createElement("img");
-    img.className = "logo";
-    img.alt = channel.name;
-    img.src = channel.logo || makeFallbackLogo();
-
-    img.onerror = () => {
-      img.onerror = null;
-      img.src = makeFallbackLogo();
-    };
-
-    img.onclick = () => openExternalPlayer(channel.url);
-
-    const name = document.createElement("div");
-    name.className = "channel-name";
-    name.textContent = channel.name;
-
-    const btn = document.createElement("button");
-    btn.className = "play-button";
-    btn.textContent = "▶ ဖွင့်မယ်";
-    btn.onclick = () => openExternalPlayer(channel.url);
-
-    card.append(img, name, btn);
-    channelBox.appendChild(card);
-  }
-}
+// App ဖွင့်သည်နှင့် Playlist ကို အလိုအလျောက်ဖတ်ပါ။
+loadPlaylist();
 </script>
 
 </body>
