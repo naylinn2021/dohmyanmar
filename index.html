@@ -5,84 +5,97 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#101827">
-<title>Myanmar Live TV</title>
+<title>Myanmar Live TV - Android TV</title>
 
 <style>
 :root {
   --bg: #101827;
   --panel: #1c2839;
   --text: #f5f7fb;
-  --muted: #aebbd0;
+  --muted: #b5c1d4;
   --accent: #29c78a;
   --border: #344358;
+  --focus: #ffe082;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 header {
-  padding: 24px 14px;
-  text-align: center;
+  padding: 26px 32px;
   background: #172438;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  text-align: center;
 }
 
 header h1 {
-  margin: 0 0 12px;
-  font-size: 25px;
+  font-size: clamp(26px, 3vw, 40px);
+  margin: 0 0 8px;
 }
 
 header p {
-  margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: clamp(14px, 1.5vw, 20px);
+  margin: 0;
 }
 
 main {
-  max-width: 1000px;
-  margin: auto;
-  padding: 16px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px 32px;
 }
 
 .panel {
-  padding: 16px;
+  padding: 22px;
   background: var(--panel);
   border-radius: 18px;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
 }
 
 .controls {
   display: grid;
-  gap: 12px;
-}
-
-input, select, button {
-  font: inherit;
+  grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr);
+  gap: 14px;
 }
 
 input, select {
   width: 100%;
-  min-height: 54px;
-  padding: 12px;
-  border: 1px solid var(--border);
+  min-height: 56px;
+  padding: 14px 16px;
+  border: 2px solid var(--border);
   border-radius: 12px;
   background: #101827;
   color: var(--text);
   outline: none;
 }
 
-button {
-  border: 0;
-  border-radius: 11px;
-  padding: 13px;
-  cursor: pointer;
-  font-weight: bold;
+#loadBtn {
+  min-height: 56px;
+  grid-column: 1 / -1;
 }
 
 .primary, .play-btn {
@@ -96,91 +109,111 @@ button {
 }
 
 button:disabled {
-  opacity: 0.6;
-  cursor: wait;
+  opacity: 0.65;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.channel:focus-visible {
+  outline: 4px solid var(--focus);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 7px rgba(255, 224, 130, 0.15);
+}
+
+button:focus-visible {
+  transform: scale(1.025);
 }
 
 #status {
   margin-top: 16px;
-  font-size: 14px;
-  line-height: 1.6;
-  overflow-wrap: anywhere;
   color: var(--muted);
+  overflow-wrap: anywhere;
+  font-size: 15px;
 }
 
-#status.success { color: #7ce7b6; }
-#status.error { color: #ff9b9b; }
+#status.success {
+  color: #7ce7b6;
+}
+
+#status.error {
+  color: #ff9b9b;
+}
 
 .section-title {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin: 22px 4px 14px;
+  align-items: center;
+  gap: 16px;
+  margin: 28px 4px 18px;
 }
 
 .section-title h2 {
+  font-size: clamp(21px, 2.3vw, 30px);
   margin: 0;
-  font-size: 20px;
 }
 
 #count {
-  font-size: 13px;
   color: var(--muted);
   text-align: right;
+  font-size: 15px;
 }
 
 #channels {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .channel {
   min-width: 0;
-  padding: 14px 10px;
-  border: 1px solid var(--border);
-  border-radius: 17px;
+  padding: 18px;
   background: var(--panel);
+  border: 2px solid var(--border);
+  border-radius: 18px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
+  align-items: stretch;
+  transition: border-color 0.12s, background 0.12s;
+}
+
+.channel:focus-within {
+  border-color: var(--focus);
+  background: #24344a;
 }
 
 .logo-box {
-  width: 100%;
-  height: 100px;
-  margin-bottom: 12px;
+  height: 120px;
+  margin-bottom: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo-box img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   background: white;
   border-radius: 14px;
 }
 
 .logo-fallback {
-  width: 78px;
-  height: 78px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background: #344358;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .channel-name {
-  width: 100%;
-  min-height: 42px;
-  font-size: 16px;
+  min-height: 48px;
+  font-size: 18px;
   font-weight: bold;
   overflow-wrap: anywhere;
 }
@@ -188,51 +221,135 @@ button:disabled {
 .channel-group {
   margin: 4px 0 16px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .play-btn {
   width: 100%;
-  min-height: 48px;
-  font-size: 14px;
+  min-height: 54px;
   margin-top: auto;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .empty {
   grid-column: 1 / -1;
-  padding: 30px 12px;
   text-align: center;
+  padding: 32px 16px;
   color: var(--muted);
-  line-height: 1.8;
   overflow-wrap: anywhere;
 }
 
 footer {
-  padding: 24px 12px;
-  text-align: center;
-  font-size: 12px;
+  padding: 26px;
   color: var(--muted);
+  text-align: center;
+  font-size: 13px;
 }
 
-@media (min-width: 600px) {
+/* TV မျက်နှာပြင်ကျယ် */
+@media (min-width: 1500px) {
   #channels {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  main {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+}
+
+/* ပုံမှန် Android TV / Box */
+@media (min-width: 1000px) and (max-width: 1499px) {
+  #channels {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+/* TV Box က Browser ကို 720p နဲ့ပြသတဲ့အခါ */
+@media (min-width: 650px) and (max-width: 999px) {
+  main {
+    padding: 20px;
+  }
+
+  #channels {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .channel {
+    padding: 13px;
   }
 
   .logo-box {
-    height: 110px;
+    height: 100px;
   }
 
   .logo-box img {
-    width: 96px;
-    height: 96px;
+    width: 82px;
+    height: 82px;
   }
 }
 
-@media (min-width: 850px) {
+/* ဖုန်းနဲ့လည်း အသုံးပြုနိုင်ရန် */
+@media (max-width: 649px) {
+  header {
+    padding: 22px 12px;
+  }
+
+  main {
+    padding: 12px;
+  }
+
+  .panel {
+    padding: 14px;
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  #loadBtn {
+    grid-column: auto;
+  }
+
   #channels {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .channel {
+    padding: 12px 9px;
+  }
+
+  .logo-box {
+    height: 84px;
+  }
+
+  .logo-box img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .channel-name {
+    font-size: 15px;
+  }
+
+  .play-btn {
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+
+  .section-title {
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
   }
 }
 </style>
@@ -286,12 +403,10 @@ footer {
 <script>
 "use strict";
 
-// မူရင်း Playlist Link
-// HTML ထဲမှာရှိနေသောကြောင့် အပြည့်အဝ လျှို့ဝှက်မထားနိုင်ပါ။
 const DEFAULT_PLAYLIST =
   "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/doh_mm.m3u";
 
-// သင်အသုံးပြုနေသော Network Stream Player package
+// မိမိ Android TV Box ရှိ Player package နှင့် ကိုက်ညီရပါမည်။
 const PLAYER_PACKAGE = "com.genuine.leone";
 
 const loadBtn = document.getElementById("loadBtn");
@@ -325,7 +440,7 @@ function parseM3U(text) {
     .replace(/^\uFEFF/, "")
     .split(/\r?\n/);
 
-  const channels = [];
+  const result = [];
   let current = null;
 
   for (const rawLine of lines) {
@@ -361,7 +476,6 @@ function parseM3U(text) {
       continue;
     }
 
-    // Comment နှင့် metadata များကို ကျော်ပါ။
     if (line.startsWith("#")) continue;
 
     if (/^(referer|http-user-agent|user-agent|cookie)\s*=/i.test(line)) {
@@ -370,12 +484,12 @@ function parseM3U(text) {
 
     if (/^https?:\/\//i.test(line) && current) {
       current.url = line;
-      channels.push(current);
+      result.push(current);
       current = null;
     }
   }
 
-  return channels;
+  return result;
 }
 
 function buildGroups() {
@@ -404,6 +518,15 @@ function buildGroups() {
   }
 }
 
+function createFallback(name) {
+  const fallback = document.createElement("div");
+  fallback.className = "logo-fallback";
+  fallback.textContent =
+    (name || "TV").trim().charAt(0).toUpperCase() || "T";
+
+  return fallback;
+}
+
 function makeChannelCard(channel) {
   const card = document.createElement("article");
   card.className = "channel";
@@ -420,8 +543,7 @@ function makeChannelCard(channel) {
     img.referrerPolicy = "no-referrer";
 
     img.addEventListener("error", () => {
-      const fallback = createFallback(channel.name);
-      img.replaceWith(fallback);
+      img.replaceWith(createFallback(channel.name));
     }, { once: true });
 
     logoBox.appendChild(img);
@@ -441,24 +563,16 @@ function makeChannelCard(channel) {
   play.type = "button";
   play.className = "play-btn";
   play.textContent = "▶ Open in Player";
+  play.setAttribute("aria-label", channel.name + " ကို ဖွင့်ရန်");
 
   play.addEventListener("click", () => {
     openExternalPlayer(channel.url);
   });
 
-  // Copy Stream URL နှင့် Open Stream ခလုတ်များ မထည့်ထားပါ။
+  // Copy Stream URL / Open Stream ခလုတ်များ မပါဝင်ပါ။
   card.append(logoBox, name, group, play);
 
   return card;
-}
-
-function createFallback(name) {
-  const fallback = document.createElement("div");
-  fallback.className = "logo-fallback";
-  fallback.textContent =
-    (name || "TV").trim().charAt(0).toUpperCase() || "T";
-
-  return fallback;
 }
 
 function openExternalPlayer(streamUrl) {
@@ -509,8 +623,7 @@ function renderChannels() {
   channelsBox.replaceChildren();
 
   countBox.textContent =
-    filtered.length + " / " +
-    allChannels.length + " Channels";
+    filtered.length + " / " + allChannels.length + " Channels";
 
   if (filtered.length === 0) {
     const empty = document.createElement("div");
@@ -558,9 +671,7 @@ async function loadPlaylist() {
     const parsedChannels = parseM3U(text);
 
     if (parsedChannels.length === 0) {
-      throw new Error(
-        "Channel မတွေ့ပါ။ Playlist ပုံစံကို စစ်ဆေးပါ။"
-      );
+      throw new Error("ဖတ်လို့ရသော Channel မတွေ့ပါ။");
     }
 
     allChannels = parsedChannels;
@@ -570,8 +681,7 @@ async function loadPlaylist() {
 
     setStatus(
       "အောင်မြင်ပါသည်။ Channel " +
-      allChannels.length +
-      " ခု ဖတ်ပြီးပါပြီ။",
+      allChannels.length + " ခု ဖတ်ပြီးပါပြီ။",
       "success"
     );
 
@@ -580,8 +690,8 @@ async function loadPlaylist() {
 
     if (error instanceof TypeError) {
       setStatus(
-        "Playlist ကို ဖတ်မရပါ။ အင်တာနက်၊ CORS ခွင့်ပြုချက်၊ " +
-        "သို့မဟုတ် Playlist Server ကို စစ်ဆေးပါ။",
+        "Playlist မဖတ်နိုင်ပါ။ အင်တာနက်၊ CORS ခွင့်ပြုချက် " +
+        "သို့မဟုတ် Playlist Server ကို စစ်ပါ။",
         "error"
       );
     } else {
@@ -594,7 +704,7 @@ async function loadPlaylist() {
       const empty = document.createElement("div");
       empty.className = "empty";
       empty.textContent =
-        "Channel များ မပေါ်ပါ။ အပေါ်က အမှားစာကို စစ်ဆေးပါ။";
+        "Channel များ မပေါ်ပါ။ အမှားစာကို စစ်ဆေးပါ။";
 
       channelsBox.appendChild(empty);
       countBox.textContent = "0 Channels";
@@ -606,11 +716,105 @@ async function loadPlaylist() {
   }
 }
 
+/*
+ TV Remote navigation:
+ - Up / Down / Left / Right ဖြင့် focus ရွှေ့ရန်
+ - OK / Enter ဖြင့် ရွေးချယ်ရန်
+ - Input ထဲတွင် စာရိုက်နေစဉ် arrow keys ကို မတားရန်
+*/
+document.addEventListener("keydown", event => {
+  const active = document.activeElement;
+  const tag = active ? active.tagName : "";
+
+  const isTyping =
+    tag === "INPUT" ||
+    tag === "TEXTAREA";
+
+  if (isTyping) {
+    if (event.key === "Escape") {
+      active.blur();
+    }
+    return;
+  }
+
+  if (!["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
+    return;
+  }
+
+  const focusables = [
+    ...document.querySelectorAll(
+      "button:not(:disabled), select, input"
+    )
+  ].filter(element => element.getClientRects().length > 0);
+
+  if (!focusables.length) return;
+
+  const currentIndex = focusables.indexOf(active);
+
+  if (currentIndex < 0) {
+    event.preventDefault();
+    focusables[0].focus();
+    return;
+  }
+
+  const current = focusables[currentIndex];
+  const currentRect = current.getBoundingClientRect();
+
+  let best = null;
+  let bestScore = Infinity;
+
+  for (const candidate of focusables) {
+    if (candidate === current) continue;
+
+    const rect = candidate.getBoundingClientRect();
+    const dx = rect.left + rect.width / 2 -
+      (currentRect.left + currentRect.width / 2);
+    const dy = rect.top + rect.height / 2 -
+      (currentRect.top + currentRect.height / 2);
+
+    let primary;
+    let secondary;
+
+    if (event.key === "ArrowRight" && dx > 2) {
+      primary = dx;
+      secondary = Math.abs(dy);
+    } else if (event.key === "ArrowLeft" && dx < -2) {
+      primary = -dx;
+      secondary = Math.abs(dy);
+    } else if (event.key === "ArrowDown" && dy > 2) {
+      primary = dy;
+      secondary = Math.abs(dx);
+    } else if (event.key === "ArrowUp" && dy < -2) {
+      primary = -dy;
+      secondary = Math.abs(dx);
+    } else {
+      continue;
+    }
+
+    const score = primary + secondary * 1.7;
+
+    if (score < bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
+  }
+
+  if (best) {
+    event.preventDefault();
+    best.focus();
+    best.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "nearest"
+    });
+  }
+});
+
 loadBtn.addEventListener("click", loadPlaylist);
 searchInput.addEventListener("input", renderChannels);
 groupFilter.addEventListener("change", renderChannels);
 
-// App ဖွင့်သည်နှင့် Playlist ကို အလိုအလျောက်ဖတ်ပါ။
+// TV Browser ဖွင့်သည်နှင့် Playlist ကို အလိုအလျောက်ဖတ်ပါ။
 loadPlaylist();
 </script>
 
