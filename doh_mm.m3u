@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",DVB TV
 https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-id="MaharTV.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ7Z4o_Y3_KHO3aOXjjQ0bxscwJS9Tkc8eQpSDpBWIdX75XXkSJEsVRQ&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MAHAR TV
+https://ygncdn.com/live/mahar/playlist.m3u8
 #EXTINF:-1 tvg-id="FortuneTV.mm@SD" tvg-logo="https://i.imgur.com/MM5evnD.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",Fortune TV
 http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
 #EXTINF:-1 tvg-id="HluttawSD.mm@SD" tvg-logo="https://i.imgur.com/Gffq8ks.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",Hluttaw S & D
