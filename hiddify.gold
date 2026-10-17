@@ -27,9 +27,6 @@
       },
       "packet_encoding": "xudp"
     }
-  ],
-  "endpoints":   [
-  ]
 }
     {
       "type": "vless",
