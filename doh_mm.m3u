@@ -79,7 +79,7 @@ http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
 
 INTERNATIONAL NEWS — ENGLISH
 
-==============================
+=====================================
 
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" group-title="International News",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.m3u8
@@ -112,7 +112,7 @@ https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
 
 
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" group-title="International News",NHK World-Japan
-https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
+#https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
 
 
 
