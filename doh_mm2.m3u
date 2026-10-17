@@ -21,4 +21,22 @@ http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19047/index.m3u8
 http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19048/index.m3u8 
 
 #EXTINF:0 tvg-rec="0",HBO Pop BR #EXTGRP:другие 
-http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19049/index.m3u8 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19049/index.m3u8
+
+#EXTINF:0 tvg-rec="0",Zee TV HD IN
+#EXTGRP:другие
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6576/index.m3u
+
+#EXTINF:0 tvg-rec="0",Sony Max 1 HD IN
+#EXTGRP:другие
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6625/index.m3u
+#EXTINF:0 tvg-rec="0",Sony Pix HD IN
+#EXTGRP:другие
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6626/index.m3u
+#EXTINF:0 tvg-rec="0",Channel I IN
+#EXTGRP:другие
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6633/index.m3u
+#EXTINF:0 tvg-rec="0",Sony AATH IN
+#EXTGRP:другие
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6641/index.m3u
+
