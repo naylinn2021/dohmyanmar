@@ -114,8 +114,7 @@ https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" group-title="International News",NHK World-Japan
 https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
 
-#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-name="CGTN Documentary" group-title="International News",CGTN Documentary
-https://news.cgtn.com/resource/live/document/cgtn-documentary.m3u8
+
 
 .
 
