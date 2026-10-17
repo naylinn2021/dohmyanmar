@@ -112,7 +112,7 @@ https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
 
 
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" group-title="International News",NHK World-Japan
-https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
+#https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
 
 
 
