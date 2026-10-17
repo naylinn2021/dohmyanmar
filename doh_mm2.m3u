@@ -27,16 +27,5 @@ http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19049/index.m3u8
 #EXTGRP:другие
 http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6576/index.m3u
 
-#EXTINF:0 tvg-rec="0",Sony Max 1 HD IN
-#EXTGRP:другие
-http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6625/index.m3u
-#EXTINF:0 tvg-rec="0",Sony Pix HD IN
-#EXTGRP:другие
-http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6626/index.m3u
-#EXTINF:0 tvg-rec="0",Channel I IN
-#EXTGRP:другие
-http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6633/index.m3u
-#EXTINF:0 tvg-rec="0",Sony AATH IN
-#EXTGRP:другие
-http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/6641/index.m3u
+#EXTINF:0 tvg-rec="0",Colors Tamil HD IN #EXTGRP:HD http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32297/index.m3u #EXTINF:0 tvg-rec="0",Zee Talkies HD IN #EXTGRP:HD http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32298/index.m3u #EXTINF:0 tvg-rec="0",&Pictures HD IN #EXTGRP:HD http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32299/index.m3u #EXTINF:0 tvg-rec="0",Colors Infinity HD IN #EXTGRP:HD http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32300/index.m3u 
 
