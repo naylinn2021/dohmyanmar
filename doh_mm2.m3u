@@ -1,16 +1,24 @@
 #EXTM3U
-#EXTINF:0 tvg-rec="0",VF HBO #EXTGRP:кино http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19428/index.m3u8
+#EXTINF:0 tvg-rec="0",VF HBO #EXTGRP:кино 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19428/index.m3u8
 
-#EXTINF:0 tvg-rec="0",HBO Max Avances HD ES #EXTGRP:кино http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32346/index.m3u8
+#EXTINF:0 tvg-rec="0",HBO Max Avances HD ES #EXTGRP:кино 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32346/index.m3u8
 
-#EXTINF:0 tvg-rec="0",HBO Max Avances HD ES #EXTGRP:кино http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32346/index.m3u8
+#EXTINF:0 tvg-rec="0",HBO Max Avances HD ES #EXTGRP:кино 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/32346/index.m3u8
 
-#EXTINF:0 tvg-rec="0",HBO 2 HD BR #EXTGRP:другие http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19045/index.m3u8 
+#EXTINF:0 tvg-rec="0",HBO 2 HD BR #EXTGRP:другие 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19045/index.m3u8 
 
-#EXTINF:0 tvg-rec="0",HBO HD BR #EXTGRP:другие http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19046/index.m3u8 
+#EXTINF:0 tvg-rec="0",HBO HD BR #EXTGRP:другие 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19046/index.m3u8 
 
-#EXTINF:0 tvg-rec="0",HBO Mundi HD BR #EXTGRP:другие http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19047/index.m3u8 
+#EXTINF:0 tvg-rec="0",HBO Mundi HD BR #EXTGRP:другие 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19047/index.m3u8 
 
-#EXTINF:0 tvg-rec="0",HBO+ BR #EXTGRP:другие http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19048/index.m3u8 
+#EXTINF:0 tvg-rec="0",HBO+ BR #EXTGRP:другие 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19048/index.m3u8 
 
-#EXTINF:0 tvg-rec="0",HBO Pop BR #EXTGRP:другие http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19049/index.m3u8 
+#EXTINF:0 tvg-rec="0",HBO Pop BR #EXTGRP:другие 
+http://pthr8eai.streamoras.top/iptv/Q79FPYNH3RX3GH/19049/index.m3u8 
