@@ -31,3 +31,22 @@
   "endpoints":   [
   ]
 }
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "PYAESONE-SG 🇸🇬
+
+💎 Premium VLESS Key — 500GB
+
+📩 ဝယ်ယူရန် / အသေးစိတ်မေးရန်
+👉 @PyaeSone9455 § 0",
+      "server": "minthantzin1.online",
+      "server_port": 44280,
+      "uuid": "c15abcd5-1a50-47aa-8cd5-44ec36feedcc",
+      "packet_encoding": "xudp"
+    }
+  ],
+  "endpoints":   [
+  ]
+}
