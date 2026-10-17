@@ -27,7 +27,7 @@
       },
       "packet_encoding": "xudp"
     }
-},
+   },
     {
       "type": "vless",
       "tag": "PYAESONE-SG 🇸🇬
@@ -45,3 +45,4 @@
   "endpoints":   [
   ]
 }
+  }
