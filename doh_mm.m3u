@@ -2,6 +2,10 @@
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSeMvyo2Bz6l8OH3etA_m9_Njj33nNZGEvU2jux0J69qmeKtc-T9C5wg&s" group-title="1.LIVE", Premier League: Everton vs. Chelsea
 https://hwyypull.ncctrials.com/live/stream-571291_lhd.flv?auth_key=1792241585-0-0-a68007e6001bb818be71b4eb5137fbdd
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSeMvyo2Bz6l8OH3etA_m9_Njj33nNZGEvU2jux0J69qmeKtc-T9C5wg&s" group-title="LIVE", Premier League: Everton vs. Chelsea
+https://pull.fmp.live/live/live_58035_lud.m3u8?auth_key=1792245206-0-0-cb4b08948405a8b6bc01d954e0c66d56
+#referer=https://m.fmp.live/
+
 #EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",DVB TV
 https://live-stream.dvb.no/hls/stream_src/index.m3u8
 #EXTINF:-1 tvg-id="MaharTV.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ7Z4o_Y3_KHO3aOXjjQ0bxscwJS9Tkc8eQpSDpBWIdX75XXkSJEsVRQ&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MAHAR TV
