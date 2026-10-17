@@ -1,3 +1,16 @@
-vless://22bcaeb3-8527-48c5-a8d1-e491371882a4@139.180.156.111:443?type=grpc&encryption=none&serviceName=&authority=&security=reality&pbk=Vvcj-AyzMaJOPlKdF7vZuQpYQUGA0JWR9r_4eyucxgc&fp=chrome&sni=www.grammarly.com&sid=34&spx=%2F#Myanmar%20Software%20Zone-Free%20Key
+{
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "DOH MM-SG 🇸🇬
 
-vless://41bc5a50-7c41-4078-9a2a-611ab1c6dddb@snapp.ir:2095?path=%2F&security=none&encryption=none&host=lizardf1.fastshop11.ir&type=ws#canfingV2rayNG-131
+💎 Premium VLESS Key — 500GB § 0",
+      "server": "minthantzin1.online",
+      "server_port": 44280,
+      "uuid": "c15abcd5-1a50-47aa-8cd5-44ec36feedcc",
+      "packet_encoding": "xudp"
+    }
+  ],
+  "endpoints":   [
+  ]
+}
