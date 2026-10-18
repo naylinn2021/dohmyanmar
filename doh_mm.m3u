@@ -148,6 +148,10 @@ CARTOON KIDS
 http://158.172.217.18:8000/play/a03a/index.m3u8 
 
 
+#EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@SouthPacific" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-country="BO" group-title="CARTOON" tvg-language="Spanish" tvg-genre="Animation",Cartoon Network Latin America South Pacific 
+http://45.167.1.138:8000/play/a00w 
+
+
 
 
 .
