@@ -28,5 +28,11 @@ http://103.185.24.134:3001/SonyMAX/index.m3u8
 #EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony SAB 
 http://103.151.60.162:2122/play/a01q/index.m3u8?hls 
 
+#EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" tvg-country="BR" group-title="Brazil" tvg-language="Portuguese",Sony Channel (Brazil) 
+http://170.83.16.50/SONY_CHANNEL/index.m3u8 
+
+#EXTINF:-1 tvg-id="SonyMovies.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" tvg-country="BR" group-title="Brazil" tvg-language="Portuguese" tvg-genre="Movies",Sony Movies 
+http://45.162.64.114/SONY_MOVIES/index.m3u8
+
 
 
