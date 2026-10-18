@@ -3,7 +3,7 @@
 http://103.151.60.162:2122/play/a026/index.m3u8?hls
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
-#https://pull.fmp.live/live/live_58404_lud.m3u8?auth_key=1792337838-0-0-931247d1318375be79383f7d9c9d34d1
+https://pull.fmp.live/live/live_58502_lud.m3u8?auth_key=1792348194-0-0-9a3b98e64f3cf17e62497dd83b0c5faa
 #referer=https://m.fmp.live/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
