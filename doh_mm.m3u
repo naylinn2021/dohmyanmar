@@ -1,7 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RphBfeY.jpeg" group-title="1.LIVE", Premier League
-https://live05.zhwpg.app/live/08552895_tsc.m3u8?_t=1792327643285
-#referer=https://onlive.io/
+https://live05.zhwpg.app/live/08552895_tsc.m3u8?_t=1792327643285=referer=https://onlive.io/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RphBfeY.jpeg" group-title="1.LIVE", Premier League
 https://hwyypull.ncctrials.com/live/stream-551893_lhd.flv?auth_key=1792249445-0-0-673b28a338a03a5223a4e5917c403922
