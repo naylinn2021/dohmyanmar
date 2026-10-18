@@ -17,9 +17,7 @@ http://103.151.60.162:2122/play/a015/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television HD 
 http://38.96.178.205/SONYHD/index.m3u8 
-
-#EXTINF:-1 tvg-id="SonyMax.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Movies",Sony Max 
-http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0 
+ 
 
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-logo="https://i.imgur.com/gqUYk6C.png" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Movies",Sony Max 2 
 http://107.167.16.138/sonymax2/index.m3u8?token=test 
@@ -28,5 +26,7 @@ http://107.167.16.138/sonymax2/index.m3u8?token=test
 http://103.185.24.134:3001/SonyMAX/index.m3u8 
 
 #EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony SAB 
-http://103.151.60.162:2122/play/a01q/index.m3u8?hls #EXTI
+http://103.151.60.162:2122/play/a01q/index.m3u8?hls 
+
+
 
