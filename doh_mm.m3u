@@ -99,13 +99,13 @@ http://103.151.60.162:2122/play/a028/index.m3u8?hls
 http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="India" tvg-language="Bengali" tvg-genre="SPORT",Star Sports Select 1 HD 
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="SPORT" tvg-language="Bengali" tvg-genre="SPORT",Star Sports Select 1 HD 
 http://103.151.60.162:2122/play/a026/index.m3u8?hls 
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 
 https://tvsen7.aynascope.net/ssport2hd/index.m3u8 
 
-#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="India" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
 http://103.151.60.162:2122/play/a027/index.m3u8?hls #
 
 
