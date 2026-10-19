@@ -2,9 +2,8 @@
 #EXTINF:-1 tvg-logo="" group-title="1.LIVE", 
 https://play.e39azy.com/live/92F105C34A4890A4FBF2F983E643D314.m3u8|Referer=https://www.goaldaddythai.info/
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
-#https://pull.fmp.live/live/live_58502_lud.m3u8?auth_key=1792348194-0-0-9a3b98e64f3cf17e62497dd83b0c5faa
-#referer=https://m.fmp.live/
+#EXTINF:-1 tvg-logo="" group-title="1.LIVE", 
+https://play.e39azy.com/live/000E8875BE5F3821748F06E6D501B84A.m3u8|Referer=https://www.goaldaddythai.info/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
 #https://live05.zhwpg.app/live/08552895.m3u8?_t=1792336804437|referer=https://onlive.io/
