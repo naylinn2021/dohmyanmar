@@ -1,16 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
-http://103.151.60.162:2122/play/a026/index.m3u8?hls
+#EXTINF:-1 tvg-logo="" group-title="1.LIVE", 
+https://play.e39azy.com/live/92F105C34A4890A4FBF2F983E643D314.m3u8|Referer=https://www.goaldaddythai.info/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
-https://pull.fmp.live/live/live_58502_lud.m3u8?auth_key=1792348194-0-0-9a3b98e64f3cf17e62497dd83b0c5faa
+#https://pull.fmp.live/live/live_58502_lud.m3u8?auth_key=1792348194-0-0-9a3b98e64f3cf17e62497dd83b0c5faa
 #referer=https://m.fmp.live/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
-https://live05.zhwpg.app/live/08552895.m3u8?_t=1792336804437|referer=https://onlive.io/
+#https://live05.zhwpg.app/live/08552895.m3u8?_t=1792336804437|referer=https://onlive.io/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League 
-https://hwyypull.ncctrials.com/live/stream-613431_lhd.flv?auth_key=1792340645-0-0-b032683cc9d8f8e0dd6500b37031c0b6
+#https://hwyypull.ncctrials.com/live/stream-613431_lhd.flv?auth_key=1792340645-0-0-b032683cc9d8f8e0dd6500b37031c0b6
 
 
 #####################################
