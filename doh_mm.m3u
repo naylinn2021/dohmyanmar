@@ -26,7 +26,7 @@ https://ygncdn.com/live/mahar/playlist.m3u8
 http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
 
 #EXTINF:-1 tvg-id="MitvSD.mm@SD" tvg-logo="https://mytel-img.oss-ap-southeast-1.aliyuncs.com/mytel-image/2026/08/03/10/1785726635690/d38ff47fc49b_640_360.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",MITV S & D
-https://live-evg6.tv360.mytel.com.mm/0Z98BiK_c1i55tiQ-7eF7A/1792384839/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/m3u8/cache_MITV_m3u8_hls_m3u8_MITV-TS-L.m3u8
+https://live-evg6.tv360.mytel.com.mm/JNrKIJbmAeMi0KjnfH00yw/1792555848/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/master.m3u8?manifestfilter=video_bitrate:1-4400000&uid=4390
 #referer=https://m.tv360.mytel.com.mm/
 
 
