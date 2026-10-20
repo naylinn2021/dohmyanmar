@@ -1,9 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="" group-title="1.LIVE", 
-https://hwyypull.ncctrials.com/live/stream-500894_lsd.flv?auth_key=1792529165-0-0-a5720219e94bc54456164f02a519a219
+https://hwyypull.ncctrials.com/live/stream-500894_lsd.flv?auth_key=1792529165-0-0-a5720219e94bc54456164f02a519a219|Referer=https://m.yyzbtv8.com/
 
 #EXTINF:-1 tvg-logo="" group-title="1.LIVE", 
-https://hwyypull.ncctrials.com/live/stream-557437_lsd.flv?auth_key=1792528025-0-0-a9f2ee7ee222dd8a4d24bd6f30cc5b61
+https://hwyypull.ncctrials.com/live/stream-557437_lsd.flv?auth_key=1792528025-0-0-a9f2ee7ee222dd8a4d24bd6f30cc5b61|Referer=https://m.yyzbtv8.com/
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League
 #https://live05.zhwpg.app/live/08552895.m3u8?_t=1792336804437|referer=https://onlive.io/
