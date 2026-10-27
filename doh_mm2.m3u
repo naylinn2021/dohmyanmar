@@ -1,38 +1,57 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema HD 
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema HD 
 http://103.151.60.162:2122/play/a024/index.m3u8?hls 
 
-#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="INT" group-title="International" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema APAC 
+#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="INT" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema APAC 
 #https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8 
 
-#EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" tvg-country="INT" group-title="International" tvg-language="English" tvg-genre="Entertainment",Zee One 
+#EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" tvg-country="INT" group-title="MOVIE" tvg-language="English" tvg-genre="Entertainment",Zee One 
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="SonyBBCEarth.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="English" tvg-genre="Documentary",Sony BBC Earth HD 
+#EXTINF:-1 tvg-id="SonyBBCEarth.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="English" tvg-genre="Documentary",Sony BBC Earth HD 
 http://103.185.24.134:3001/SONY-BBC/index.m3u8 
 
-#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television 
+#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television 
 http://103.151.60.162:2122/play/a015/index.m3u8?hls 
 
-#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television HD 
+#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television HD 
 http://38.96.178.205/SONYHD/index.m3u8 
  
 
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-logo="https://i.imgur.com/gqUYk6C.png" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Movies",Sony Max 2 
+#EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-logo="https://i.imgur.com/gqUYk6C.png" tvg-country="IN" group-title="India" tvg-language="MOVIE" tvg-genre="Movies",Sony Max 2 
 http://107.167.16.138/sonymax2/index.m3u8?token=test 
 
-#EXTINF:-1 tvg-id="SonyMax.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Movies",Sony Max HD 
+#EXTINF:-1 tvg-id="SonyMax.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Sony Max HD 
 http://103.185.24.134:3001/SonyMAX/index.m3u8 
 
-#EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" tvg-country="IN" group-title="India" tvg-language="Hindi" tvg-genre="Entertainment",Sony SAB 
+#EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony SAB 
 http://103.151.60.162:2122/play/a01q/index.m3u8?hls 
 
-#EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" tvg-country="BR" group-title="Brazil" tvg-language="Portuguese",Sony Channel (Brazil) 
+#EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" tvg-country="BR" group-title="MOVIE" tvg-language="Portuguese",Sony Channel (Brazil) 
 http://170.83.16.50/SONY_CHANNEL/index.m3u8 
 
-#EXTINF:-1 tvg-id="SonyMovies.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" tvg-country="BR" group-title="Brazil" tvg-language="Portuguese" tvg-genre="Movies",Sony Movies 
+#EXTINF:-1 tvg-id="SonyMovies.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" tvg-country="BR" group-title="MOVIE" tvg-language="Portuguese" tvg-genre="Movies",Sony Movies 
 http://45.162.64.114/SONY_MOVIES/index.m3u8
 
 
+#EXTINF:-1 tvg-id="105.trans" group-title="HBO GROUP" group-logo="https://i.imgur.com/o4iB2wH.png" tvg-logo="https://i.ibb.co.com/LgqX1qJ/hbo.png", HBO
+http://136.239.158.10:6610/001/2/ch00000090990000001065/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BosKg8aLji3LHWqHUI%2FwQyJytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001085&contentid=ch00000000000000001085&videoid=ch00000090990000001065&recommendtype=0&userid=1362658369654&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=UVJL5F87UVBXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+
+
+#EXTINF:-1 tvg-id="109.trans" group-title="HBO GROUP" tvg-logo="https://i.imgur.com/uB76Ft0.png", CINEMAX
+http://136.239.173.10:6610/001/2/ch00000090990000001108/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001233&contentid=ch00000000000000001233&videoid=ch00000090990000001108&recommendtype=0&userid=1349825919509&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=LAO494UQ9QXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+
+#EXTINF:-1 tvg-id="108.trans" tvg-logo="https://i.ibb.co.com/dLR3Sqq/hbofamily.png" group-title="MOVIE",HBO FAMILY
+https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/106/106.mpd||drmScheme=clearkey&drmLicense=07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6
+
+
+#EXTINF:-1 tvg-id="109.trans" group-title="MOVIE" tvg-logo="https://i.imgur.com/uB76Ft0.png", CINEMAX
+http://136.239.173.10:6610/001/2/ch00000090990000001108/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001233&contentid=ch00000000000000001233&videoid=ch00000090990000001108&recommendtype=0&userid=1349825919509&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=LAO494UQ9QXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+
+#EXTINF:-1 tvg-id="105.trans" group-title="MOVIE" group-logo="https://i.imgur.com/o4iB2wH.png" tvg-logo="https://i.ibb.co.com/LgqX1qJ/hbo.png", HBO
+http://136.239.158.10:6610/001/2/ch00000090990000001065/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BosKg8aLji3LHWqHUI%2FwQyJytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001085&contentid=ch00000000000000001085&videoid=ch00000090990000001065&recommendtype=0&userid=1362658369654&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=UVJL5F87UVBXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 
