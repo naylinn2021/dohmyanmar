@@ -85,6 +85,15 @@ https://livedth.95tv.live/memfs/cb0e6dd3-6d4d-4fa7-9adc-6f2e3e6544e1_output_0.m3
 
 ################ SPORT #############
 
+#EXTINF:-1 group-title="2.SPORTS" tvg-uid="28463ea187c2a097ccd11272a3fc7f92" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 1 
+http://stream.mcquack.net/130/index.m3u8
+
+#EXTINF:-1 group-title="2.SPORTS" tvg-uid="918474e98bd45af70ef10c7b0b012e08" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 2 
+http://stream.mcquack.net/142/index.m3u8
+
+#EXTINF:-1 group-title="2.SPORTS" tvg-uid="cca0c0eb4e02544aee3f9a1a81fbbae8" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 3 
+http://stream.mcquack.net/185/index.m3u8
+
 #EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BvKgxh4FSG4-NXps17L5JKnicD7lr3pVnisLzeFiIjCuxEwKLA1H8FI&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",CCTV SPORT
 http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271e1d103cf4854f
 
