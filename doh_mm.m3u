@@ -133,6 +133,10 @@ https://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
 http://103.151.60.162:2122/play/a027/index.m3u8?hls #
 
+#EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇰🇭,🇱🇦,🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
+https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd 
+
+
 
 ############## NEWS #################
 
