@@ -22,7 +22,7 @@ http://maxshowplayer.online:2052/live/17810359400475/39215025645488/677074.ts
 #EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxY9CD5_L6aymF5_cLgw0YK9HaXE2mJ8xWDw&s" group-title="SPORTS 2", FOX SPORTS 1 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f 
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd 
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd||drmScheme=clearkey&drmLicense=2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f
 
 #EXTINF:-1 tvg-id="FOX SPORTS 2.mx" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvtqRQatMFDaYngLY7Mgt925fQgDVkzisSA&s" group-title="SPORTS 2", FOX SPORTS 2 
 #KODIPROP:inputstreamaddon=inputstream.adaptive #KODIPROP:inputstream.adaptive.manifest_type=dash 
