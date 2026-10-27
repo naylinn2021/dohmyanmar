@@ -85,19 +85,19 @@ https://livedth.95tv.live/memfs/cb0e6dd3-6d4d-4fa7-9adc-6f2e3e6544e1_output_0.m3
 
 ################ SPORT #############
 
-#EXTINF:-1 group-title="2.SPORTS" tvg-uid="28463ea187c2a097ccd11272a3fc7f92" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 1 
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="28463ea187c2a097ccd11272a3fc7f92" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 1 
 http://stream.mcquack.net/130/index.m3u8
 
-#EXTINF:-1 group-title="2.SPORTS" tvg-uid="918474e98bd45af70ef10c7b0b012e08" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 2 
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="918474e98bd45af70ef10c7b0b012e08" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 2 
 http://stream.mcquack.net/142/index.m3u8
 
-#EXTINF:-1 group-title="2.SPORTS" tvg-uid="cca0c0eb4e02544aee3f9a1a81fbbae8" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 3 
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="cca0c0eb4e02544aee3f9a1a81fbbae8" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 3 
 http://stream.mcquack.net/185/index.m3u8
 
 #EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BvKgxh4FSG4-NXps17L5JKnicD7lr3pVnisLzeFiIjCuxEwKLA1H8FI&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",CCTV SPORT
 http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271e1d103cf4854f
 
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="SPORT",Star Sports Select 1 HD (1080p)
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="2.SPORT",Star Sports Select 1 HD (1080p)
 http://103.151.60.162:2122/play/a026/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="2.SPORT",Star Sports Select 2 HD (1080p)
@@ -124,10 +124,10 @@ http://103.151.60.162:2122/play/a028/index.m3u8?hls
 http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="SPORT" tvg-language="Bengali" tvg-genre="2.SPORT",Star Sports Select 1 HD 
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="2.SPORT" tvg-language="Bengali" tvg-genre="2.SPORT",Star Sports Select 1 HD 
 http://103.151.60.162:2122/play/a026/index.m3u8?hls 
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="SPORT" tvg-language="English" tvg-genre="2.SPORT",Star Sports Select 2 
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="2.SPORT",Star Sports Select 2 
 https://tvsen7.aynascope.net/ssport2hd/index.m3u8 
 
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
@@ -201,13 +201,13 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKlU-h0HQNJr_PrDdJK5exBySM9mPlPWSY6RulvQOEMA&s" group-title="2.SPORT",BEIN SPORT 3
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd||drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/mqed821604073947.png" group-title="2.SPORTS", SPORT KLUB SI 1
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/mqed821604073947.png" group-title="2.SPORT", SPORT KLUB SI 1
 https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL1.m3u8
 
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/axtu9e1604073980.png" group-title="2.SPORTS", SPORT KLUB SL 2
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/axtu9e1604073980.png" group-title="2.SPORT", SPORT KLUB SL 2
 https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL2.m3u8
 
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/0swmzk1604074014.png" group-title="2.SPORTS", SPORT KLUB SI 3
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/0swmzk1604074014.png" group-title="2.SPORT", SPORT KLUB SI 3
 https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL3.m3u8
 
 
