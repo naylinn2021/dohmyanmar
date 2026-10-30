@@ -8,7 +8,8 @@ https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manife
 https://ottlive.dishhome.com.np/protected/jATOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 
  
-#EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://img1.wsimg.com/isteam/ip/d08bca69-c528-4050-938f-bd511aa0a61f/blob-0004.png", ACTION SPORTS 1 (DISHOME) https://ottlive.dishhome.com.np/protected/vVnVkZ4Bnu3lGwDQJxH-/dash/manifest.mpd|drmScheme=clearkey&drmLicense=2bb7f4489e5f421eb0de90035cffb2bc:96b09b69c638dac184f42910e0095933
+#EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://img1.wsimg.com/isteam/ip/d08bca69-c528-4050-938f-bd511aa0a61f/blob-0004.png", ACTION SPORTS 1 (DISHOME) 
+https://ottlive.dishhome.com.np/protected/vVnVkZ4Bnu3lGwDQJxH-/dash/manifest.mpd|drmScheme=clearkey&drmLicense=2bb7f4489e5f421eb0de90035cffb2bc:96b09b69c638dac184f42910e0095933
 
  
 
@@ -17,7 +18,8 @@ https://ottlive.dishhome.com.np/protected/BlnekZ4Bnu3lGwDQwBL2/dash/manifest.mpd
 
 
 
-#EXTINF:-1 tvg-id="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-ljDXFQTDIcDi2aVDKhagkpxxGCgah67kBRLc2Y4QedMA_YPoHlSSCA&s=10" group-title="⭐⭐SPORTS⭐⭐",Kanal 1 Extra 🇸🇰 https://dash2.antik.sk/stream/hisi_as2/playlist_cbcs.mpd|drmScheme=clearkey&drmLicense=https://drm.antik.sk/widevine/key 
+#EXTINF:-1 tvg-id="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-ljDXFQTDIcDi2aVDKhagkpxxGCgah67kBRLc2Y4QedMA_YPoHlSSCA&s=10" group-title="⭐⭐SPORTS⭐⭐",Kanal 1 Extra 🇸🇰 
+https://dash2.antik.sk/stream/hisi_as2/playlist_cbcs.mpd|drmScheme=clearkey&drmLicense=https://drm.antik.sk/widevine/key 
 
 #EXTINF:-1 tvg-id="Arena Sport 4 Premium.ba" tvg-logo="https://i.ibb.co.com/VpY4kD2s/arena4prm.png" group-title="⭐⭐SPORTS⭐⭐", ARENA SPORT 4 PREMIUM 🇭🇷 
 https://webtvstream.bhtelecom.ba/hls15/as_premium4.mpd?n=browsernull-cdn.sam.net|drmScheme=clearkey&drmLicense=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d 
