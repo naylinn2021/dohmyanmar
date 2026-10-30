@@ -108,42 +108,42 @@ http://stream.mcquack.net/185/index.m3u8
 http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271e1d103cf4854f
 
 #EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="2.SPORT",Star Sports Select 1 HD (1080p)
-http://103.151.60.162:2122/play/a026/index.m3u8?hls
+#http://103.151.60.162:2122/play/a026/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="2.SPORT",Star Sports Select 2 HD (1080p)
-http://103.151.60.162:2122/play/a027/index.m3u8?hls
+#http://103.151.60.162:2122/play/a027/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-id="SonySportsTen1.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 1 (576p)
-http://103.151.60.162:2122/play/a01c/index.m3u8?hls
+#http://103.151.60.162:2122/play/a01c/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-id="SonySportsTen2.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 2 (576p)
-http://103.151.60.162:2122/play/a01b/index.m3u8?hls
+#http://103.151.60.162:2122/play/a01b/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="2.SPORT",Sony Sports Ten 3 Hindi (576p)
-http://103.151.60.162:2122/play/a01t/index.m3u8?hls
+#http://103.151.60.162:2122/play/a01t/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="SonySportsTen4.in@Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyTen4Kan.png" group-title="2.SPORT",Sony Sports Ten 4 Kannada (576p)
-http://103.151.60.162:2122/play/a021/index.m3u8?hls
+#http://103.151.60.162:2122/play/a021/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 5 (576p)
-http://103.151.60.162:2122/play/a028/index.m3u8?hls
+#http://103.151.60.162:2122/play/a028/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwDnIyxukFVCEBhYiBb5bj7pJnnXhFbVojsNalF-Dy2g&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",TEN1 HD
-http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
+#http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="2.SPORT" tvg-language="Bengali" tvg-genre="2.SPORT",Star Sports Select 1 HD 
-http://103.151.60.162:2122/play/a026/index.m3u8?hls 
+#http://103.151.60.162:2122/play/a026/index.m3u8?hls 
 
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="2.SPORT",Star Sports Select 2 
-https://tvsen7.aynascope.net/ssport2hd/index.m3u8 
+#https://tvsen7.aynascope.net/ssport2hd/index.m3u8 
 
 #EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
-http://103.151.60.162:2122/play/a027/index.m3u8?hls #
+#http://103.151.60.162:2122/play/a027/index.m3u8?hls #
 
-#EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇰🇭,🇱🇦,🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
+#EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd 
 
 
