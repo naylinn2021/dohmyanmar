@@ -1,32 +1,32 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema HD 
-http://103.151.60.162:2122/play/a024/index.m3u8?hls 
+#http://103.151.60.162:2122/play/a024/index.m3u8?hls 
 
 #EXTINF:-1 tvg-id="ZeeCinema.in@APAC" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" tvg-country="INT" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Zee Cinema APAC 
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8 
+#https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8 
 
 #EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" tvg-country="INT" group-title="MOVIE" tvg-language="English" tvg-genre="Entertainment",Zee One 
-https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
+#https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="SonyBBCEarth.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="English" tvg-genre="Documentary",Sony BBC Earth HD 
-http://103.185.24.134:3001/SONY-BBC/index.m3u8 
+#http://103.185.24.134:3001/SONY-BBC/index.m3u8 
 
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television 
-http://103.151.60.162:2122/play/a015/index.m3u8?hls 
+#http://103.151.60.162:2122/play/a015/index.m3u8?hls 
 
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony Entertainment Television HD 
-http://38.96.178.205/SONYHD/index.m3u8 
+#http://38.96.178.205/SONYHD/index.m3u8 
  
 
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-logo="https://i.imgur.com/gqUYk6C.png" tvg-country="IN" group-title="MOVIE" tvg-language="MOVIE" tvg-genre="Movies",Sony Max 2 
-http://107.167.16.138/sonymax2/index.m3u8?token=test 
+#http://107.167.16.138/sonymax2/index.m3u8?token=test 
 
 #EXTINF:-1 tvg-id="SonyMax.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Movies",Sony Max HD 
-http://103.185.24.134:3001/SonyMAX/index.m3u8 
+#http://103.185.24.134:3001/SonyMAX/index.m3u8 
 
 #EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s159099_ld_h15_ab.png?lock=720x540" tvg-country="IN" group-title="MOVIE" tvg-language="Hindi" tvg-genre="Entertainment",Sony SAB 
-http://103.151.60.162:2122/play/a01q/index.m3u8?hls 
+#http://103.151.60.162:2122/play/a01q/index.m3u8?hls 
 
 #EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" tvg-country="BR" group-title="MOVIE" tvg-language="Portuguese",Sony Channel (Brazil) 
 http://170.83.16.50/SONY_CHANNEL/index.m3u8 
