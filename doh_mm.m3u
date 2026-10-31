@@ -4,7 +4,7 @@
 https://pull.fmp.live/live/live_60326_lud.m3u8?auth_key=1793459133-0-0-57e425cc6cfb2e2a045c400acffc66b8|Referer=https://m.fmp.live/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",19:00 ချဲလ်စီး - မန်ယူ
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://pull.fmp.live/live/live_60326_lhd.m3u8?auth_key=1793459133-0-0-011f9da261bc6bb84367c0111a7b0925|Referer=https://m.fmp.live/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",21:30 မန်စီးတီး - ဘရိုက်တန်
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
