@@ -144,7 +144,16 @@ http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271
 #http://103.151.60.162:2122/play/a027/index.m3u8?hls #
 
 #EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
-https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd 
+https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+
+#EXTINF:-1 group-title="2.SPORT" tvg-logo="",LIVE SPORT
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drmScheme=clearkey&drmLicense=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+
+#EXTINF:-1 tvg-logo="" group-title="2.SPORT",BeIN ENGLISH
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+
+#EXTINF:-1 tvg-logo="" group-title="2.SPORT",CBS SPORTS - AQ
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
 
 ############## SPORT 2 ##############
 #EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://images.seeklogo.com/logo-png/7/1/italia-1-logo-png_seeklogo-74063.png",ITALIA 1 
