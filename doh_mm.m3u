@@ -1,12 +1,12 @@
 #EXTM3U
 # ===== SOURCE 2 =====
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/3gy7g",01:00 WIB Al Nassr vs Al Kholood
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10",19:00 ချဲလ်စီး - မန်ယူ
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drmScheme=clearkey&drmLicense=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 
-#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2693/image" group-title="LIVE EVENT",02:45 WIB Fiorentina vs Atalanta Football beIN ENGLISH
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",19:00 ချဲလ်စီး - မန်ယူ
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 
-#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/48/image" group-title="LIVE EVENT",02:45 WIB Everton vs Newcastle United Football CBS SPORTS - AQ
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",21:30 မန်စီးတီး - ဘရိုက်တန်
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
 
 
