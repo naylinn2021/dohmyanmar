@@ -1,7 +1,7 @@
 #EXTM3U
 # ===== SOURCE 2 =====
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10",19:00 ချဲလ်စီး - မန်ယူ
-https://pull.fmp.live/live/live_60369_lud.m3u8?auth_key=1793464474-0-0-a1ae65e2140d20659b43db55aba7ccf4|Referer=https://m.fmp.live/
+https://pull.fmp.live/live/live_60369_lhd.m3u8?auth_key=1793464474-0-0-9ee3631e606b26e1e6828c519eb0de36|Referer=https://m.fmp.live/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",19:00 ချဲလ်စီး - မန်ယူ
 https://pull.fmp.live/live/live_60369_lud.m3u8?auth_key=1793464474-0-0-a1ae65e2140d20659b43db55aba7ccf4|Referer=https://m.fmp.live/
