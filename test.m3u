@@ -1,179 +1,166 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="tvN.id" tvg-name="tvN" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN
-http://proxy-v.rctiplus.id/live/GvisionTV/tvn/index.m3u8|referrer=https://www.rctiplus.com/ 
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2561/image" group-title="LIVE EVENT",21:30 WIB SC Paderborn 07 vs Eintracht Frankfurt | Football | SKY SPORT DE - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey #KODIPROP:inputstream.adaptive.license_key=f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubiowncrej/out/v1/def874d66d3b4dfa99c354ee7d0855c0/cenc.mpd 
 
-#EXTINF:-1 tvg-id="CCM.id" tvg-name="CCM" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMwhfOebogR40s3qIrHo9L94vz4NvtF1r4QGLoN2Y7Q&s=10" group-title="MOVIES & ENTERTAINMENT",Celestial Classic 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8
-
-#EXTINF:-1 tvg-id="tvN.HD.my" tvg-name="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN Korea 
-https://d2hbbjdi2lggii.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sbr4a75paq6du-ssai-prd/080e7b54_ab07_49c8_b8e3_8811cf63fde2/hls/playlist.m3u8 
-
-#EXTINF:-1 tvg-id="tvNMovies.id" tvg-name="tvN Movies" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvnmovies.png" group-title="MOVIES & ENTERTAINMENT",TVN MOVIES 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/tvnmovies/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_kix.png",KIX | PH 
-#http://gvisiontv2.channell.my.id/ch/ph/kix.php/.mpd 
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_kix.png",KIX | VS OS6 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/kix/index.m3u8|referrer=https://www.rctiplus.com/ 
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/ 
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1 
- 
-
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrF7FTHRf_GsJjT2yYgdczJtqnkyvmPttoA&s" group-title="MOVIES & ENTERTAINMENT",VISION PRIME 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/visionprime/index.m3u8|referrer=https://www.rctiplus.com/
-
-
-#EXTINF:-1 tvg-id="CCM.id" tvg-name="CCM" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMwhfOebogR40s3qIrHo9L94vz4NvtF1r4QGLoN2Y7Q&s=10" group-title="MOVIES & ENTERTAINMENT",Celestial Classic 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8|referrer=https://www.rctiplus.com/  
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAKEUwgOvV4QxTTW45kajyQwnhyAd_YlNfSRZVUL-xA&s=10",Celestial Movies 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialmovies/index.m3u8|referrer=https://www.rctiplus.com/  
-
-#EXTINF:-1 tvg-id="Z Bioskop.id" tvg-name="Z Bioskop" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_zeebioskop.png" group-title="MOVIES & ENTERTAINMENT",Zee BIOSKOP 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/zeebioskop/index.m3u8|referrer=https://www.rctiplus.com/  
-
-
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://blog.logomyway.com/wp-content/uploads/2021/12/MrBeast-youtube-logo.jpg" group-title="MOVIES & ENTERTAINMENT",Mr Beast 
-https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8|referrer=https://www.rctiplus.com/  
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hits.png",HITS 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hits/index.m3u8|referrer=https://www.rctiplus.com/  
-
-
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hitsnow.png" group-title="MOVIES & ENTERTAINMENT",HITS NOW 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hitsnow/index.m3u8|referrer=https://www.rctiplus.com/  
-
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hitsmovies.png",HITS MOVIES 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hitsmovies/index.m3u8|referrer=https://www.rctiplus.com/  
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/36360/image" group-title="LIVE EVENT",21:30 WIB RB Leipzig vs FC Augsburg | Football | PEACOCK ES - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=59de57168ce94a96bed1606f10c65f67:459fdec6262975e03adc82d62b749f44 #EXTVLCOPT:http-referrer=http://www.visionplus.id/ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
+#KODIPROP:inputstream.adaptive.license_key=8a650b8c677114ae6c166fde76b8f7b5:a6e66101e9acaa338ccc516624413359 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kevwxr5kzz/out/v1/88f1f2d6b1aa423da350d32f29286c97/cenc.mpd
 
-#EXTINF:-1 tvg-id="Lifetime.id" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzwhAEPymcWmjlOitCjqAdZcs36Pdwn6bImBA5cOr9A&s=10" group-title="MOVIES & ENTERTAINMENT", LIFETIME 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/lifetime/index.m3u8|referrer=https://www.rctiplus.com/  
-
-#EXTINF:-1 tvg-id="Originals.id" tvg-name="Originals" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/JwJ5P23S/20251205-055042.png" group-title="MOVIES & ENTERTAINMENT",ORIGINALS 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/originals/index.m3u8|referrer=https://www.rctiplus.com/  
-
-#EXTINF:-1 tvg-id="Uniques.id" tvg-name="Uniques" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/m5fN8Q0z/20251205-042454.jpg" group-title="MOVIES & ENTERTAINMENT",UNIQUES 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/uniques/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-
-#EXTINF:-1 tvg-id="CineEdge.id" tvg-name="CineEdge" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/wFG56FMn/20251205-033621.jpg" group-title="MOVIES & ENTERTAINMENT",CINEEDGE 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/cineedge/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 tvg-id="StudioUniversal.id" tvg-name="Studio Universal" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_studiouniversal.png" group-title="MOVIES & ENTERTAINMENT",STUDIO UNIVERSAL | OS6 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/universal/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 tvg-id="Thrill.id" tvg-name="Thrill" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_thrill.png" group-title="MOVIES & ENTERTAINMENT",THRILL 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/thrill/index.m3u8|referrer=https://www.rctiplus.com/
-
-
-#EXTINF:-1 tvg-id="BuddyStar.id" tvg-name="Buddy Star" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/zhbhSChZ/20251205-032111.png" group-title="MOVIES & ENTERTAINMENT",BUDDY STAR 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/buddystars/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 tvg-id="Superrix.id" tvg-name="Superrix" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/bjkRtT72/20251205-055845.jpg" group-title="MOVIES & ENTERTAINMENT",SUPERRIX | OS6 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/superrix/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-
-
-
-#EXTINF:-1 tvg-id="GALAXY.id" tvg-name="GALAXY" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_galaxy.png" group-title="MOVIES & ENTERTAINMENT",GALAXY 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/galaxy/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 tvg-id="GALAXYPremium.id" tvg-name="GALAXY Premium.id" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_galaxypremium.png" group-title="MOVIES & ENTERTAINMENT",GALAXY PREMIUM 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/galaxyprem/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-
-#EXTINF:-1 tvg-id="ROCKAction.id" tvg-name="ROCK Action" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_rockaction.png" group-title="MOVIES & ENTERTAINMENT",ROCK ACTION 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/rockaction/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_rockent.png" group-title="MOVIES & ENTERTAINMENT",ROCK ENTERTAINMENT 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/rockent/index.m3u8|referrer=https://www.rctiplus.com/ 
-
-
-#EXTINF:-1 tvg-id="AXN.id" tvg-name="AXN" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_axn.png" group-title="MOVIES & ENTERTAINMENT",AXN 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/axn/index.m3u8|referrer=https://www.rctiplus.com/  
-
-
-#EXTINF:-1 tvg-id="CelebritiesTV.id" tvg-name="Celebrities TV" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMRZk_moBVmQ-wJbmnc5QjgBciO9M2eN5CVlc-M9JLK3qiHIY5" group-title="MOVIES & ENTERTAINMENT",CELEBRITIES TV 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celebrities/index.m3u8|referrer=https://www.rctiplus.com/  
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/36360/image" group-title="LIVE EVENT",21:30 WIB RB Leipzig vs FC Augsburg | Football | SKY SPORT DE - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=ea468ed546bd4f94b9fd8355d5656997:a3b8756a947905cb44c997b656ffb012 
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
+#KODIPROP:inputstream.adaptive.license_key=5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w1ad3vckry/out/v1/33ce68a8d21949da84e49f2695e51980/cenc.mpd 
 
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | LIVE 
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8|referrer=https://www.rctiplus.com/ 
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg",21:30 WIB Mainz 05 vs Bayern MÃ¼nchen 
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36 
+https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8 
 
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | VS OS6 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/arirang/index.m3u8|referrer=https://www.rctiplus.com/  
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg",21:30 WIB Borussia Dortmund vs Elversberg 
+https://www.rtmpcdn.com/live/8efb72d3-abfc-4efe-b72a-91eca93334e6.m3u8 
 
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | OXY 
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
-http://gvisiontv2.channell.my.id/ch/id/oxy2.php/.m3u8?id=arirangworld 
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/42/image" group-title="LIVE EVENT",22:00 WIB Arsenal vs Hull City | Football | PEACOCK ENG - AQ | Gvision 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1 
+#KODIPROP:inputstream.adaptive.license_key=f0ab82e649db67c77f045022194c3cb2:5e21bae323c1278656e6c93a70928aea 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igr5elwsmu/out/v1/fd08479ed632421dae63f6c9d2705b3d/cenc.mpd
 
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsc-0h39AjTFA6FxAt59Jb4m8JstNvDtZZu_M-4GMt1w&s=10",Zee Cinema 
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd 
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/42/image" group-title="LIVE EVENT",22:00 WIB Arsenal vs Hull City | Football | SKY SPORT DE - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=e61523260c614746b25b9a5523fe9a39:72ddbf37f76f49acbb8e140e7279e7a1 
+#KODIPROP:inputstream.adaptive.license_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnj8aqoogh/out/v1/b427d030aa6c40b1ab5acccc70497a2f/cenc.mpd 
 
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPMSgdWvcxJHbXOQcL_CYDJVyppbenpjN2kGpaPRNdw&s=10",Zee Bollywood 
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd 
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/42/image" group-title="LIVE EVENT",22:00 WIB Arsenal vs Hull City | Football | HD SERVER | Gvision TV 
+https://www.rtmpcdn.com/live/87bb91e2-2d13-4cc8-8773-f57b9c665bd8.m3u8 
 
-#EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C6AB65CE-37A0-4040-ABA7-021C669DBEE1/0-1x1.jpg?width=320" group-title="MOVIES & ENTERTAINMENT" ,Lotus Macau 
-http://gvisiontv2.channell.my.id/ch/ph/lotus.php/.mpd
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/43/image" group-title="LIVE EVENT",22:00 WIB Fulham vs Newcastle United | Football | PEACOCK ENG - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=1f8b913e80701b02ed0e563ff5b34b24:feecbd2460a60f40b9df0c525d12a239 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/ltdcb8x3a6/out/v1/48407f0bf9ef4707b9780e6cd3467b76/cenc-sd.mpd 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/43/image" group-title="LIVE EVENT",22:00 WIB Fulham vs Newcastle United | Football | SKY SPORT DE - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=09d34ac8d64803c1f8b1bddada99d638:752ab3efc7eb3601c8d3c6b5a89ffa39 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yd0huk04ob/out/v1/bc2ed690e3134c4c82a7c51b7174b5ae/cenc.mpd 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/9/image" group-title="LIVE EVENT",22:00 WIB Birmingham City vs Swansea City | Football | PARAMOUNT+ - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=8a43e0307d35ee998538d727c547ed89:6b209a23caf17807e80c0670b573c052 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9gvzth7hm8/out/v1/3081336e7e1942348518f9e9ed6e7335/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/9/image" group-title="LIVE EVENT",22:00 WIB Birmingham City vs Swansea City | Football | beIN ENGLISH - AQ | Gvision TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/46/image" group-title="LIVE EVENT",22:00 WIB Blackburn Rovers vs West Ham United | Football | PARAMOUNT+ - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd #KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=f398e33ebe7eda534d3bd80b041f9310:497411a777d659e6d256a8989dd65f36 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/snsskxvtx6/out/v1/d03c989306884a7fb57c464849c677f2/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/61/image" group-title="LIVE EVENT",22:00 WIB Cardiff City vs Burnley | Football | HD SERVER | Gvision TV 
+https://www.rtmpcdn.com/live/52243454-0c1e-4e4d-badc-c5a7e1b1e68e.m3u8 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/47/image" group-title="LIVE EVENT",22:00 WIB Charlton Athletic vs Sheffield United | Football | PARAMOUNT+ - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=ef80abb6ec5080512a98462c37e1d4c8:a68e77e7e7a82b31cfd0a0fd4d4d1abc 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/22h786togr/out/v1/fbe8d1279f774747ade3d885e30bc75a/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/47/image" group-title="LIVE EVENT",22:00 WIB Charlton Athletic vs Sheffield United | Football | HD SERVER | Gvision TV 
+https://www.rtmpcdn.com/live/75993c3c-1d3d-4100-97ff-14e77c335842.m3u8 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/21/image" group-title="LIVE EVENT",22:00 WIB Preston North End vs Southampton | Football | HD SERVER | Gvision TV 
+https://www.rtmpcdn.com/live/565e8444-084d-45f7-844a-d1be51305654.m3u8 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/1/image" group-title="LIVE EVENT",22:00 WIB Queens Park Rangers vs Lincoln City | Football | HD SERVER | Gvision TV 
+https://www.rtmpcdn.com/live/d0c824ea-7df7-4605-b075-77557c98db11.m3u8 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/24/image" group-title="LIVE EVENT",22:00 WIB Watford vs Middlesbrough | Football | PARAMOUNT+ - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=1c2dcc968064d2493bfbd7231fcbe362:f10128e1b1c65fd1039eb7ac49125d64 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/skb3attrzy/out/v1/d1e636cbe85148788138f225bd6f8b83/cenc.mpd 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/24/image" group-title="LIVE EVENT",22:00 WIB Watford vs Middlesbrough | Football | CBS SPORTS - AQ | Gvision TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/8/image" group-title="LIVE EVENT",22:00 WIB West Bromwich Albion vs Millwall | Football | PARAMOUNT+ - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=3421eae2b6fce89959fe13bf4b613f79:7ce195c737344a6cb9ee6a1260ffc11a 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/69l2l4hgiy/out/v1/0fa831fdd02f46e7b827773416b15567/cenc.mpd 
+
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://iili.io/FtSr5Mb.jpg",22:00 WIB Arsenal vs Hull City 
+https://www.rtmpcdn.com/live/87bb91e2-2d13-4cc8-8773-f57b9c665bd8.m3u8 
+
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://iili.io/FtSr5Mb.jpg",22:00 WIB Fulham vs Newcastle United 
+https://www.rtmpcdn.com/live/053aeca4-b55c-44b6-969c-8d81c4865a99.m3u8 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2814/image" group-title="LIVE EVENT",22:15 WIB Espanyol vs Deportivo de A Coruna | Football | DAZN SPORTS - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=75bd9f8b4f59099e267457961fd3108f:ec3f44beaceabcc0fc81640ceaa3407a 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4z7q1lwrby/out/v1/00524dd3cabf40e286e7cee4efac26a1/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2814/image" group-title="LIVE EVENT",22:15 WIB Espanyol vs Deportivo de A Coruna | Football | beIN ENGLISH - AQ | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2814/image" group-title="LIVE EVENT",22:15 WIB Espanyol vs Deportivo de A Coruna | Football | D SPORTS - AQ | Gvision TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3 
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2814/image" group-title="LIVE EVENT",22:15 WIB Espanyol vs Deportivo de A Coruna | Football | CazÃ©TV - AQ | Gvision TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/4488/image" group-title="LIVE EVENT",22:15 WIB Cadiz vs Real Oviedo | Football | LaLiga Hypermotion | Gvision TV 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a 
+https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd
+
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://iili.io/FtSMHX9.jpg",22:15 WIB Espanyol vs Deportivo La CoruÃ±a 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/team/2957/image" group-title="LIVE EVENT",22:30 WIB Fortuna Sittard vs SC Telstar | Football | LOW QUALITY | Gvision TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/ 
+http://193.47.62.44/hls/HYYYAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc 
+
+#EXTINF:-1 tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co.com%2FrGySkbHm%2F20260806-155101.png&bg=8eacc8" group-title="LIVE EVENT",èŒœç�ºï¼Œé™ˆç½—æ­¢æ­¥å�Šå†³èµ› 2026éŸ©å›½Open Badminton | HUYA CN | Gvision TV 
+http://al.flv.huya.com/src/35184701760921-35184701760921-1415930840659001344-2479087855028-10057-A-0-1.flv?wsSecret=de3a70ba22f24808d73950a546ad6847&wsTime=6af09bd0&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D 
+
+#EXTINF:-1 tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co.com%2FrGySkbHm%2F20260806-155101.png&bg=8eacc8" group-title="LIVE EVENT",é‚¦ä¸«æ¨ªæ‰«å�ƒå†›æ™‹çº§å†³èµ› 2026éŸ©å›½Open Badminton | HUYA CN | Gvision TV 
+http://al.flv.huya.com/src/1616275478-1616275478-6941850319336767488-2895636156-10057-A-0-1.flv?wsSecret=3a3c9f1790e5d50b9a682931a11b2260&wsTime=6af09bd1&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D 
+
+
 
