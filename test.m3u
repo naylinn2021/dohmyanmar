@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="tvN.id" tvg-name="tvN" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/tvn/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/tvn/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-id="tvN.HD.my" tvg-name="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN Korea 
 https://d2hbbjdi2lggii.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sbr4a75paq6du-ssai-prd/080e7b54_ab07_49c8_b8e3_8811cf63fde2/hls/playlist.m3u8 
@@ -10,73 +10,60 @@ https://d2hbbjdi2lggii.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="tvNMovies.id" tvg-name="tvN Movies" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvnmovies.png" group-title="MOVIES & ENTERTAINMENT",TVN MOVIES 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/tvnmovies/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/tvnmovies/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_kix.png",KIX | PH 
-http://gvisiontv2.channell.my.id/ch/ph/kix.php/.mpd 
+#http://gvisiontv2.channell.my.id/ch/ph/kix.php/.mpd 
 
 #EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_kix.png",KIX | VS OS6 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/kix/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/kix/index.m3u8|referrer=https://www.rctiplus.com/ 
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/ 
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1 
-
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_animax.png",Animax | VS 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=65 
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) 
-
-#EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_animax.png",Animax | VS OS6 
-#EXTVLCOPT:http-user-agent=android-R+ 
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/animax/index.m3u8 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; AndroidTV Build/V3.2025; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.7103.61 Mobile Safari/537.36 
-#KODIPROP:inputstream.adaptive.license_key=3dd653fc7aa1e3075b7f0233620df68f:8573791fa55bff03a3094ff559fc1407 
+ 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrF7FTHRf_GsJjT2yYgdczJtqnkyvmPttoA&s" group-title="MOVIES & ENTERTAINMENT",VISION PRIME 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/visionprime/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/visionprime/index.m3u8|referrer=https://www.rctiplus.com/
 
 
 #EXTINF:-1 tvg-id="CCM.id" tvg-name="CCM" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMwhfOebogR40s3qIrHo9L94vz4NvtF1r4QGLoN2Y7Q&s=10" group-title="MOVIES & ENTERTAINMENT",Celestial Classic 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-id="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAKEUwgOvV4QxTTW45kajyQwnhyAd_YlNfSRZVUL-xA&s=10",Celestial Movies 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialmovies/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/celestialmovies/index.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 tvg-id="Z Bioskop.id" tvg-name="Z Bioskop" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_zeebioskop.png" group-title="MOVIES & ENTERTAINMENT",Zee BIOSKOP 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/zeebioskop/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/zeebioskop/index.m3u8|referrer=https://www.rctiplus.com/  
 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://blog.logomyway.com/wp-content/uploads/2021/12/MrBeast-youtube-logo.jpg" group-title="MOVIES & ENTERTAINMENT",Mr Beast 
-https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8 
+https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hits.png",HITS 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hits/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/hits/index.m3u8|referrer=https://www.rctiplus.com/  
 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hitsnow.png" group-title="MOVIES & ENTERTAINMENT",HITS NOW 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hitsnow/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/hitsnow/index.m3u8|referrer=https://www.rctiplus.com/  
 
 
 #EXTINF:-1 group-title="MOVIES & ENTERTAINMENT" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_hitsmovies.png",HITS MOVIES 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/hitsmovies/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/hitsmovies/index.m3u8|referrer=https://www.rctiplus.com/  
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=59de57168ce94a96bed1606f10c65f67:459fdec6262975e03adc82d62b749f44 #EXTVLCOPT:http-referrer=http://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
@@ -84,44 +71,44 @@ http://proxy-v.rctiplus.id/live/GvisionTV/hitsmovies/index.m3u8
 #EXTINF:-1 tvg-id="Lifetime.id" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzwhAEPymcWmjlOitCjqAdZcs36Pdwn6bImBA5cOr9A&s=10" group-title="MOVIES & ENTERTAINMENT", LIFETIME 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/lifetime/index.m3u8  
+http://proxy-v.rctiplus.id/live/GvisionTV/lifetime/index.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 tvg-id="Originals.id" tvg-name="Originals" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/JwJ5P23S/20251205-055042.png" group-title="MOVIES & ENTERTAINMENT",ORIGINALS 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/originals/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/originals/index.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 tvg-id="Uniques.id" tvg-name="Uniques" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/m5fN8Q0z/20251205-042454.jpg" group-title="MOVIES & ENTERTAINMENT",UNIQUES 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/uniques/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/uniques/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 
 #EXTINF:-1 tvg-id="CineEdge.id" tvg-name="CineEdge" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/wFG56FMn/20251205-033621.jpg" group-title="MOVIES & ENTERTAINMENT",CINEEDGE 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/cineedge/index.m3u8  
+http://proxy-v.rctiplus.id/live/GvisionTV/cineedge/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-id="StudioUniversal.id" tvg-name="Studio Universal" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_studiouniversal.png" group-title="MOVIES & ENTERTAINMENT",STUDIO UNIVERSAL | OS6 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/universal/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/universal/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-id="Thrill.id" tvg-name="Thrill" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_thrill.png" group-title="MOVIES & ENTERTAINMENT",THRILL 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/thrill/index.m3u8 1 
+http://proxy-v.rctiplus.id/live/GvisionTV/thrill/index.m3u8|referrer=https://www.rctiplus.com/
 
 
 #EXTINF:-1 tvg-id="BuddyStar.id" tvg-name="Buddy Star" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/zhbhSChZ/20251205-032111.png" group-title="MOVIES & ENTERTAINMENT",BUDDY STAR 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/buddystars/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/buddystars/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-id="Superrix.id" tvg-name="Superrix" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://i.ibb.co.com/bjkRtT72/20251205-055845.jpg" group-title="MOVIES & ENTERTAINMENT",SUPERRIX | OS6 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/superrix/index.m3u8
+http://proxy-v.rctiplus.id/live/GvisionTV/superrix/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 
 
@@ -129,46 +116,46 @@ http://proxy-v.rctiplus.id/live/GvisionTV/superrix/index.m3u8
 #EXTINF:-1 tvg-id="GALAXY.id" tvg-name="GALAXY" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_galaxy.png" group-title="MOVIES & ENTERTAINMENT",GALAXY 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/galaxy/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/galaxy/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-id="GALAXYPremium.id" tvg-name="GALAXY Premium.id" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_galaxypremium.png" group-title="MOVIES & ENTERTAINMENT",GALAXY PREMIUM 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/galaxyprem/index.m3u8
+http://proxy-v.rctiplus.id/live/GvisionTV/galaxyprem/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 
 #EXTINF:-1 tvg-id="ROCKAction.id" tvg-name="ROCK Action" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_rockaction.png" group-title="MOVIES & ENTERTAINMENT",ROCK ACTION 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/rockaction/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/rockaction/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_rockent.png" group-title="MOVIES & ENTERTAINMENT",ROCK ENTERTAINMENT 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/rockent/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/rockent/index.m3u8|referrer=https://www.rctiplus.com/ 
 
 
 #EXTINF:-1 tvg-id="AXN.id" tvg-name="AXN" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_axn.png" group-title="MOVIES & ENTERTAINMENT",AXN 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/axn/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/axn/index.m3u8|referrer=https://www.rctiplus.com/  
 
 
 #EXTINF:-1 tvg-id="CelebritiesTV.id" tvg-name="Celebrities TV" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMRZk_moBVmQ-wJbmnc5QjgBciO9M2eN5CVlc-M9JLK3qiHIY5" group-title="MOVIES & ENTERTAINMENT",CELEBRITIES TV 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/celebrities/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/celebrities/index.m3u8|referrer=https://www.rctiplus.com/  
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=ea468ed546bd4f94b9fd8355d5656997:a3b8756a947905cb44c997b656ffb012 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | LIVE 
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8 
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8|referrer=https://www.rctiplus.com/ 
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | VS OS6 
 #EXTVLCOPT:http-user-agent=android-R+ 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ 
-http://proxy-v.rctiplus.id/live/GvisionTV/arirang/index.m3u8 
+http://proxy-v.rctiplus.id/live/GvisionTV/arirang/index.m3u8|referrer=https://www.rctiplus.com/  
 
 #EXTINF:-1 tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_arirang.png" group-title="MOVIES & ENTERTAINMENT",Arirang | OXY 
 #EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
