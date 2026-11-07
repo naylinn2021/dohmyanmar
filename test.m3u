@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-id="tvN.id" tvg-name="tvN" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN
 http://proxy-v.rctiplus.id/live/GvisionTV/tvn/index.m3u8|referrer=https://www.rctiplus.com/ 
 
+#EXTINF:-1 tvg-id="CCM.id" tvg-name="CCM" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMwhfOebogR40s3qIrHo9L94vz4NvtF1r4QGLoN2Y7Q&s=10" group-title="MOVIES & ENTERTAINMENT",Celestial Classic #EXTVLCOPT:http-user-agent=android-R+ #EXTVLCOPT:http-referrer=https://www.rctiplus.com/ http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8
+
 #EXTINF:-1 tvg-id="tvN.HD.my" tvg-name="" tvg-logo="https://wsrv.nl/?w=1280&h=720&fit=contain&cbg=ffffff&url=https://images.indihometv.com/images/channels/image_ch_tvn.png" group-title="MOVIES & ENTERTAINMENT",TVN Korea 
 https://d2hbbjdi2lggii.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sbr4a75paq6du-ssai-prd/080e7b54_ab07_49c8_b8e3_8811cf63fde2/hls/playlist.m3u8 
 
