@@ -8,9 +8,10 @@ https://pull.fmp.live/live/live_61781_lud.m3u8?auth_key=1794166869-0-0-ebc10d607
 https://live2.jorvakstreamcache.com/live/channel1.m3u8|Referer=https://xlz.domainkqt.cc/
 
 
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/2E6e8",[Belum Mulai] 11:30 PM Internazionale vs Como
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",23:00 လီပါပူး - အာဆင်နယ်
-#https://pull.fmp.live/live/live_60745_lud.m3u8?auth_key=1793557857-0-0-bdb82506f4ab093c32e687a9af82bc30|Referer=https://m.fmp.live/
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",19:00 ချဲလ်စီး - မန်ယူ
 #https://live05.miekgo.app/live/08552895.m3u8
