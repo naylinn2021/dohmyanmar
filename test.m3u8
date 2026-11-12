@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3000000
-http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8|referrer=https://www.rctiplus.com/
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com/
