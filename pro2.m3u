@@ -25,6 +25,20 @@ https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/106/106.mpd||drmScheme=clearke
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT/images/LOGO_HD/image.png" group-title="MOVIE", STAR MOVIES SELECT 
 #http://tv.cloudcdn.me/live.ts?channelId=199&uid=12643&deviceMac=00:1A:79:03:13:DE 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN4Iezeqeg4-CJuuVibO7X2zuw8iI2ON5aLqdQ3buoMSxpBfk7mhY3M_U&s" group-title="MOVIE", ROCK ACTION 
+http://proxy-v.rctiplus.id/live/GvisionTV/rockaction/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com/
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRseLy5o4Z2J5mI2TOzDDkGAvS4he2Lfr21X55g9FAwEA&s=10" group-title="MOVIE", ROCK ENTERTAINMENT
+http://proxy-v.rctiplus.id/live/GvisionTV/rockent/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com/
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqoD_5TE3MuC-YCvEZRImfG8TdoNT-IfHGcG2zJ3mWw&s=10" group-title="MOVIE", CCM
+http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFV0QZWG3bkS4VbNKqxBUo2NUslQ05b28kFf2haPNbg&s=10" group-title="MOVIE", CELESTIAL MOVIES
+http://proxy-v.rctiplus.id/live/GvisionTV/celestialmovies/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com
+
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="MOVIE", CHC ACTION MOVIES 
 http://69.30.245.50/live/chcdz.m3u8 
 
