@@ -1,0 +1,603 @@
+if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+    android.view.Window window = getWindow();
+    window.addFlags(android.view.WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+    window.clearFlags(android.view.WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+    window.setStatusBarColor(android.graphics.Color.parseColor("#0F1015"));
+}
+
+final EditText edit_search_ch = findViewById(R.id.edit_search_ch);
+final ImageView btn_clear = findViewById(R.id.btn_clear);
+final ListView list_channels = findViewById(R.id.list_channels);
+final androidx.cardview.widget.CardView card_back = findViewById(R.id.card_back);
+final TextView tv_header_title = findViewById(R.id.tv_header_title);
+
+final float density = getResources().getDisplayMetrics().density;
+
+String code = getIntent().getStringExtra("country_code");
+String countryName = getIntent().getStringExtra("country_name");
+
+if (countryName != null && !countryName.isEmpty()) {
+    tv_header_title.setText(countryName);
+}
+
+final Runnable hideKeyboard = new Runnable() {
+    @Override
+    public void run() {
+        android.view.inputmethod.InputMethodManager imm =
+            (android.view.inputmethod.InputMethodManager) getSystemService(android.content.Context.INPUT_METHOD_SERVICE);
+
+        if (imm != null) {
+            android.view.View v = getCurrentFocus();
+            if (v != null) {
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+            } else {
+                imm.hideSoftInputFromWindow(edit_search_ch.getWindowToken(), 0);
+            }
+        }
+        edit_search_ch.clearFocus();
+    }
+};
+
+card_back.setOnClickListener(new android.view.View.OnClickListener() {
+    @Override
+    public void onClick(android.view.View v) {
+        hideKeyboard.run();
+        finish();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+    }
+});
+
+final android.app.Dialog loadingDialog = new android.app.Dialog(ChannelsActivity.this);
+loadingDialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE);
+loadingDialog.setCancelable(false);
+
+if (loadingDialog.getWindow() != null) {
+    loadingDialog.getWindow().setBackgroundDrawable(
+        new android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT)
+    );
+}
+
+androidx.cardview.widget.CardView dCard = new androidx.cardview.widget.CardView(ChannelsActivity.this);
+dCard.setCardBackgroundColor(android.graphics.Color.parseColor("#1A1C23"));
+dCard.setRadius((int) (16 * density));
+dCard.setCardElevation((int) (6 * density));
+
+android.widget.LinearLayout dLayout = new android.widget.LinearLayout(ChannelsActivity.this);
+dLayout.setOrientation(android.widget.LinearLayout.HORIZONTAL);
+dLayout.setPadding((int) (20 * density), (int) (18 * density), (int) (24 * density), (int) (18 * density));
+dLayout.setGravity(android.view.Gravity.CENTER_VERTICAL);
+
+ProgressBar pb = new ProgressBar(ChannelsActivity.this);
+android.widget.LinearLayout.LayoutParams pbLp = new android.widget.LinearLayout.LayoutParams(
+    (int) (36 * density), (int) (36 * density)
+);
+pbLp.setMargins(0, 0, (int) (16 * density), 0);
+pb.setLayoutParams(pbLp);
+dLayout.addView(pb);
+
+android.widget.TextView dText = new android.widget.TextView(ChannelsActivity.this);
+dText.setText("Yuklanmoqda...");
+dText.setTextColor(android.graphics.Color.WHITE);
+dText.setTextSize(15);
+dText.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+dLayout.addView(dText);
+
+dCard.addView(dLayout);
+loadingDialog.setContentView(dCard);
+loadingDialog.show();
+
+final java.util.List<java.util.HashMap<String, String>> allChannels =
+    java.util.Collections.synchronizedList(new java.util.ArrayList<java.util.HashMap<String, String>>());
+
+final java.util.List<java.util.HashMap<String, String>> displayChannels =
+    java.util.Collections.synchronizedList(new java.util.ArrayList<java.util.HashMap<String, String>>());
+
+final java.util.Map<String, android.graphics.Bitmap> logoCache =
+    java.util.Collections.synchronizedMap(new java.util.HashMap<String, android.graphics.Bitmap>());
+
+class ChannelHolder {
+    android.widget.ImageView img;
+    android.widget.TextView tvFallback;
+    android.widget.TextView tvTitle;
+    android.widget.TextView tvStatus;
+}
+
+final android.widget.BaseAdapter chAdapter = new android.widget.BaseAdapter() {
+
+    @Override
+    public int getCount() {
+        return displayChannels.size();
+    }
+
+    @Override
+    public Object getItem(int pos) {
+        return (pos >= 0 && pos < displayChannels.size()) ? displayChannels.get(pos) : null;
+    }
+
+    @Override
+    public long getItemId(int pos) {
+        return pos;
+    }
+
+    @Override
+    public android.view.View getView(final int pos, android.view.View convertView, android.view.ViewGroup parent) {
+
+        ChannelHolder holder;
+
+        if (convertView == null) {
+
+            holder = new ChannelHolder();
+
+            androidx.cardview.widget.CardView card = new androidx.cardview.widget.CardView(ChannelsActivity.this);
+            card.setCardBackgroundColor(android.graphics.Color.parseColor("#1A1C23"));
+            card.setRadius((int) (12 * density));
+            card.setCardElevation((int) (2 * density));
+            card.setUseCompatPadding(false);
+
+            android.widget.AbsListView.LayoutParams cardLp =
+                new android.widget.AbsListView.LayoutParams(
+                    android.widget.AbsListView.LayoutParams.MATCH_PARENT,
+                    (int) (60 * density)
+                );
+
+            card.setLayoutParams(cardLp);
+
+            android.widget.LinearLayout row = new android.widget.LinearLayout(ChannelsActivity.this);
+            row.setOrientation(android.widget.LinearLayout.HORIZONTAL);
+            row.setPadding((int) (12 * density), 0, (int) (14 * density), 0);
+            row.setGravity(android.view.Gravity.CENTER_VERTICAL);
+            row.setLayoutParams(new android.view.ViewGroup.LayoutParams(-1, -1));
+
+            android.widget.FrameLayout logoContainer = new android.widget.FrameLayout(ChannelsActivity.this);
+
+            android.widget.LinearLayout.LayoutParams logoLp =
+                new android.widget.LinearLayout.LayoutParams(
+                    (int) (42 * density), (int) (42 * density)
+                );
+
+            logoLp.setMargins(0, 0, (int) (12 * density), 0);
+            logoContainer.setLayoutParams(logoLp);
+
+            androidx.cardview.widget.CardView logoCard = new androidx.cardview.widget.CardView(ChannelsActivity.this);
+            logoCard.setRadius((int) (8 * density));
+            logoCard.setCardElevation(0);
+            logoCard.setCardBackgroundColor(android.graphics.Color.parseColor("#252833"));
+            logoCard.setLayoutParams(new android.widget.FrameLayout.LayoutParams(-1, -1));
+
+            holder.img = new android.widget.ImageView(ChannelsActivity.this);
+            holder.img.setLayoutParams(new android.view.ViewGroup.LayoutParams(-1, -1));
+            holder.img.setScaleType(android.widget.ImageView.ScaleType.FIT_CENTER);
+            holder.img.setPadding((int) (4 * density), (int) (4 * density), (int) (4 * density), (int) (4 * density));
+            logoCard.addView(holder.img);
+
+            holder.tvFallback = new android.widget.TextView(ChannelsActivity.this);
+            holder.tvFallback.setLayoutParams(new android.view.ViewGroup.LayoutParams(-1, -1));
+            holder.tvFallback.setGravity(android.view.Gravity.CENTER);
+            holder.tvFallback.setTextColor(android.graphics.Color.parseColor("#448AFF"));
+            holder.tvFallback.setTextSize(14);
+            holder.tvFallback.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            logoCard.addView(holder.tvFallback);
+
+            logoContainer.addView(logoCard);
+            row.addView(logoContainer);
+
+            android.widget.LinearLayout textLayout = new android.widget.LinearLayout(ChannelsActivity.this);
+            textLayout.setOrientation(android.widget.LinearLayout.VERTICAL);
+            textLayout.setLayoutParams(new android.widget.LinearLayout.LayoutParams(0, -2, 1.0f));
+
+            holder.tvTitle = new android.widget.TextView(ChannelsActivity.this);
+            holder.tvTitle.setTextColor(android.graphics.Color.WHITE);
+            holder.tvTitle.setTextSize(15);
+            holder.tvTitle.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            holder.tvTitle.setSingleLine(true);
+            holder.tvTitle.setEllipsize(android.text.TextUtils.TruncateAt.END);
+            textLayout.addView(holder.tvTitle);
+
+            holder.tvStatus = new android.widget.TextView(ChannelsActivity.this);
+            holder.tvStatus.setTextSize(11);
+            holder.tvStatus.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            holder.tvStatus.setPadding(0, (int) (2 * density), 0, 0);
+            textLayout.addView(holder.tvStatus);
+
+            row.addView(textLayout);
+
+            android.widget.ImageView playIcon = new android.widget.ImageView(ChannelsActivity.this);
+            playIcon.setImageResource(android.R.drawable.ic_media_play);
+            playIcon.setColorFilter(android.graphics.Color.parseColor("#448AFF"));
+            playIcon.setLayoutParams(new android.widget.LinearLayout.LayoutParams(
+                (int) (14 * density), (int) (14 * density)
+            ));
+
+            row.addView(playIcon);
+            card.addView(row);
+
+            convertView = card;
+            convertView.setTag(holder);
+
+        } else {
+            holder = (ChannelHolder) convertView.getTag();
+        }
+
+        if (pos >= displayChannels.size()) return convertView;
+
+        final java.util.HashMap<String, String> item = displayChannels.get(pos);
+        if (item == null) return convertView;
+
+        final String title = item.get("title");
+        holder.tvTitle.setText(title != null ? title : "Unknown Channel");
+
+        boolean isOnline = "true".equals(item.get("status"));
+
+        if (isOnline) {
+            holder.tvStatus.setText("● ONLINE");
+            holder.tvStatus.setTextColor(android.graphics.Color.parseColor("#00E676"));
+        } else {
+            holder.tvStatus.setText("● OFFLINE");
+            holder.tvStatus.setTextColor(android.graphics.Color.parseColor("#FF5252"));
+        }
+
+        String letters = "TV";
+
+        if (title != null && !title.trim().isEmpty()) {
+            String clean = title.replaceAll("\\(.*?\\)", "").replaceAll("\\[.*?\\]", "").trim();
+
+            if (clean.length() >= 2) {
+                letters = clean.substring(0, 2).toUpperCase();
+            } else if (clean.length() == 1) {
+                letters = clean.toUpperCase();
+            }
+        }
+
+        final String fallbackText = letters;
+        final String logoUrl = item.get("logo");
+
+        holder.img.setImageBitmap(null);
+        holder.img.setTag(logoUrl);
+
+        holder.tvFallback.setText(fallbackText);
+        holder.tvFallback.setVisibility(android.view.View.VISIBLE);
+        holder.img.setVisibility(android.view.View.GONE);
+
+        if (logoUrl != null && !logoUrl.trim().isEmpty() && !logoUrl.toLowerCase().endsWith(".svg")) {
+
+            if (logoCache.containsKey(logoUrl) && logoCache.get(logoUrl) != null) {
+
+                holder.img.setImageBitmap(logoCache.get(logoUrl));
+                holder.img.setVisibility(android.view.View.VISIBLE);
+                holder.tvFallback.setVisibility(android.view.View.GONE);
+
+            } else {
+
+                final ChannelHolder curHolder = holder;
+                final String reqUrl = logoUrl;
+
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            java.net.URL targetUrl = new java.net.URL(reqUrl);
+
+                            java.net.HttpURLConnection conn =
+                                (java.net.HttpURLConnection) targetUrl.openConnection();
+
+                            conn.setRequestProperty("User-Agent", "Mozilla/5.0");
+                            conn.setConnectTimeout(5000);
+                            conn.setReadTimeout(5000);
+                            conn.setInstanceFollowRedirects(true);
+                            conn.connect();
+
+                            if (conn.getResponseCode() == 301 || conn.getResponseCode() == 302) {
+                                String redir = conn.getHeaderField("Location");
+                                conn.disconnect();
+
+                                conn = (java.net.HttpURLConnection) new java.net.URL(redir).openConnection();
+                                conn.setRequestProperty("User-Agent", "Mozilla/5.0");
+                                conn.connect();
+                            }
+
+                            java.io.InputStream in = conn.getInputStream();
+                            final android.graphics.Bitmap bmp = android.graphics.BitmapFactory.decodeStream(in);
+
+                            in.close();
+                            conn.disconnect();
+
+                            if (bmp != null) {
+                                logoCache.put(reqUrl, bmp);
+
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        if (reqUrl.equals(curHolder.img.getTag())) {
+                                            curHolder.img.setImageBitmap(bmp);
+                                            curHolder.img.setVisibility(android.view.View.VISIBLE);
+                                            curHolder.tvFallback.setVisibility(android.view.View.GONE);
+                                        }
+                                    }
+                                });
+                            }
+
+                        } catch (Throwable ignored) {}
+                    }
+                }).start();
+            }
+        }
+
+        return convertView;
+    }
+};
+
+list_channels.setAdapter(chAdapter);
+
+// =====================================
+// CUSTOM M3U LINKS ONLY
+// =====================================
+
+final String m3uUrl;
+
+if ("MM".equalsIgnoreCase(code)) {
+
+    m3uUrl = "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/doh_mm.m3u";
+
+} else if ("MOVIE".equalsIgnoreCase(code)) {
+
+    m3uUrl = "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/pro2.m3u";
+
+} else if ("TH".equalsIgnoreCase(code)) {
+
+    m3uUrl = "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/refs/heads/main/th.m3u";
+
+} else {
+
+    m3uUrl = "";
+}
+
+if (m3uUrl.isEmpty()) {
+
+    if (loadingDialog.isShowing()) {
+        loadingDialog.dismiss();
+    }
+
+    tv_header_title.setText("Playlist မရှိပါ");
+
+    android.widget.Toast.makeText(
+        getApplicationContext(),
+        "ဒီ Category အတွက် Playlist မရှိပါ။",
+        android.widget.Toast.LENGTH_LONG
+    ).show();
+
+} else {
+
+    new Thread(new Runnable() {
+        @Override
+        public void run() {
+            try {
+                java.net.URL url = new java.net.URL(m3uUrl);
+
+                java.net.HttpURLConnection m3uConn =
+                    (java.net.HttpURLConnection) url.openConnection();
+
+                m3uConn.setRequestProperty("User-Agent", "Mozilla/5.0");
+                m3uConn.setConnectTimeout(8000);
+                m3uConn.setReadTimeout(8000);
+
+                java.io.BufferedReader reader = new java.io.BufferedReader(
+                    new java.io.InputStreamReader(m3uConn.getInputStream())
+                );
+
+                String line;
+                String currentName = "";
+                String currentLogo = "";
+                String currentStatus = "true";
+
+                final java.util.ArrayList<java.util.HashMap<String, String>> tempList =
+                    new java.util.ArrayList<>();
+
+                while ((line = reader.readLine()) != null) {
+                    line = line.trim();
+
+                    if (line.startsWith("#EXTINF")) {
+
+                        currentLogo = "";
+
+                        int logoIdx = line.indexOf("tvg-logo=\"");
+
+                        if (logoIdx != -1) {
+                            int logoEnd = line.indexOf("\"", logoIdx + 10);
+
+                            if (logoEnd != -1) {
+                                currentLogo = line.substring(logoIdx + 10, logoEnd).trim();
+                            }
+                        }
+
+                        if (line.contains("status=\"offline\"") || line.contains("[Offline]")) {
+                            currentStatus = "false";
+                        } else {
+                            currentStatus = "true";
+                        }
+
+                        int commaIdx = line.lastIndexOf(",");
+                        currentName = (commaIdx != -1)
+                            ? line.substring(commaIdx + 1).trim()
+                            : "Channel";
+
+                    } else if (line.startsWith("http://") || line.startsWith("https://")) {
+
+                        java.util.HashMap<String, String> map = new java.util.HashMap<>();
+
+                        map.put("title", currentName.isEmpty() ? "Unknown Channel" : currentName);
+                        map.put("logo", currentLogo);
+                        map.put("status", currentStatus);
+
+                        // URL အပြည့်အစုံကို မူရင်းအတိုင်း သိမ်းထားမည်။
+                        // DRM Parameters ပါလျှင်လည်း မဖြတ်တောက်ပါ။
+                        map.put("stream_url", line);
+
+                        tempList.add(map);
+
+                        currentName = "";
+                        currentLogo = "";
+                        currentStatus = "true";
+                    }
+                }
+
+                reader.close();
+                m3uConn.disconnect();
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        synchronized (allChannels) {
+                            allChannels.clear();
+                            allChannels.addAll(tempList);
+                        }
+
+                        synchronized (displayChannels) {
+                            displayChannels.clear();
+                            displayChannels.addAll(tempList);
+                        }
+
+                        chAdapter.notifyDataSetChanged();
+
+                        if (loadingDialog.isShowing()) {
+                            loadingDialog.dismiss();
+                        }
+
+                        if (tempList.isEmpty()) {
+                            android.widget.Toast.makeText(
+                                getApplicationContext(),
+                                "Playlist ထဲမှာ Channel မတွေ့ပါ။",
+                                android.widget.Toast.LENGTH_LONG
+                            ).show();
+                        }
+                    }
+                });
+
+            } catch (Throwable e) {
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (loadingDialog.isShowing()) {
+                            loadingDialog.dismiss();
+                        }
+
+                        android.widget.Toast.makeText(
+                            getApplicationContext(),
+                            "Playlist ဖွင့်မရပါ။ Internet သို့မဟုတ် Link ကို စစ်ဆေးပါ။",
+                            android.widget.Toast.LENGTH_LONG
+                        ).show();
+                    }
+                });
+            }
+        }
+    }).start();
+}
+
+edit_search_ch.addTextChangedListener(new android.text.TextWatcher() {
+
+    public void beforeTextChanged(CharSequence s, int a, int b, int c) {}
+
+    public void onTextChanged(CharSequence s, int a, int b, int c) {
+
+        String q = s.toString().toLowerCase().trim();
+
+        btn_clear.setVisibility(
+            q.length() > 0 ? android.view.View.VISIBLE : android.view.View.GONE
+        );
+
+        synchronized (displayChannels) {
+            displayChannels.clear();
+
+            synchronized (allChannels) {
+                for (java.util.HashMap<String, String> item : allChannels) {
+                    if (item != null && item.get("title") != null) {
+                        if (item.get("title").toLowerCase().contains(q)) {
+                            displayChannels.add(item);
+                        }
+                    }
+                }
+            }
+        }
+
+        chAdapter.notifyDataSetChanged();
+    }
+
+    public void afterTextChanged(android.text.Editable s) {}
+});
+
+btn_clear.setOnClickListener(new android.view.View.OnClickListener() {
+    @Override
+    public void onClick(android.view.View v) {
+        edit_search_ch.setText("");
+        hideKeyboard.run();
+    }
+});
+
+// =====================================
+// OPEN NETWORK STREAM PLAYER
+// =====================================
+
+list_channels.setOnItemClickListener(new android.widget.AdapterView.OnItemClickListener() {
+    @Override
+    public void onItemClick(android.widget.AdapterView<?> p, android.view.View v, int pos, long id) {
+
+        hideKeyboard.run();
+
+        if (pos >= 0 && pos < displayChannels.size()) {
+
+            java.util.HashMap<String, String> item = displayChannels.get(pos);
+
+            if (item != null) {
+
+                String fullLink = item.get("stream_url");
+                String channelTitle = item.get("title");
+
+                if (fullLink == null || fullLink.trim().isEmpty()) {
+                    android.widget.Toast.makeText(
+                        ChannelsActivity.this,
+                        "Stream URL မတွေ့ပါ။",
+                        android.widget.Toast.LENGTH_SHORT
+                    ).show();
+                    return;
+                }
+
+                try {
+                    android.content.Intent playerIntent =
+                        new android.content.Intent(android.content.Intent.ACTION_SEND);
+
+                    playerIntent.setType("text/plain");
+                    playerIntent.setPackage("com.genuine.leone");
+
+                    playerIntent.putExtra(
+                        android.content.Intent.EXTRA_TEXT,
+                        fullLink.trim()
+                    );
+
+                    playerIntent.putExtra(
+                        android.content.Intent.EXTRA_SUBJECT,
+                        channelTitle != null ? channelTitle : "Live TV"
+                    );
+
+                    startActivity(playerIntent);
+
+                } catch (android.content.ActivityNotFoundException e) {
+
+                    android.widget.Toast.makeText(
+                        ChannelsActivity.this,
+                        "Network Stream Player ကို ဖွင့်မရပါ။",
+                        android.widget.Toast.LENGTH_LONG
+                    ).show();
+
+                } catch (Exception e) {
+
+                    android.widget.Toast.makeText(
+                        ChannelsActivity.this,
+                        "Player Error: " + e.getMessage(),
+                        android.widget.Toast.LENGTH_LONG
+                    ).show();
+                }
+            }
+        }
+    }
+});
