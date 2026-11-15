@@ -346,6 +346,11 @@ if ("MM".equalsIgnoreCase(code)) {
 
     m3uUrl = "https://raw.githubusercontent.com/naylinn2021/dohmyanmar/refs/heads/main/th.m3u";
 
+} else if ("CN".equalsIgnoreCase(code)) {
+
+    m3uUrl = "https://raw.githubusercontent.com/sesukyothole/iptv-2026/refs/heads/main/tv.m3u;
+
+            
 } else {
 
     m3uUrl = "";
