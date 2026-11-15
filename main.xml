@@ -1,0 +1,453 @@
+if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+    android.view.Window window = getWindow();
+    window.addFlags(android.view.WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+    window.clearFlags(android.view.WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+    window.setStatusBarColor(android.graphics.Color.parseColor("#0F1015"));
+}
+
+final float density = getResources().getDisplayMetrics().density;
+
+final EditText edit_search = findViewById(R.id.edit_search);
+final ImageView btn_clear_main = findViewById(R.id.btn_clear_main);
+final ListView list_countries = findViewById(R.id.list_countries);
+
+final LinearLayout layout_countries_tab = findViewById(R.id.layout_countries_tab);
+final ScrollView layout_about_tab = findViewById(R.id.layout_about_tab);
+
+final LinearLayout tab_btn_countries = findViewById(R.id.tab_btn_countries);
+final ImageView img_tab_countries = findViewById(R.id.img_tab_countries);
+final TextView tv_tab_countries = findViewById(R.id.tv_tab_countries);
+
+final LinearLayout tab_btn_about = findViewById(R.id.tab_btn_about);
+final ImageView img_tab_about = findViewById(R.id.img_tab_about);
+final TextView tv_tab_about = findViewById(R.id.tv_tab_about);
+
+final Runnable hideKeyboard = new Runnable() {
+    @Override
+    public void run() {
+        android.view.inputmethod.InputMethodManager imm =
+            (android.view.inputmethod.InputMethodManager) getSystemService(android.content.Context.INPUT_METHOD_SERVICE);
+        if (imm != null) {
+            android.view.View v = getCurrentFocus();
+            if (v != null) {
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+            } else {
+                imm.hideSoftInputFromWindow(edit_search.getWindowToken(), 0);
+            }
+        }
+        edit_search.clearFocus();
+    }
+};
+
+btn_clear_main.setOnClickListener(new android.view.View.OnClickListener() {
+    @Override
+    public void onClick(android.view.View v) {
+        edit_search.setText("");
+        hideKeyboard.run();
+    }
+});
+
+tab_btn_countries.setOnClickListener(new android.view.View.OnClickListener() {
+    @Override
+    public void onClick(android.view.View v) {
+        layout_countries_tab.setVisibility(android.view.View.VISIBLE);
+        layout_about_tab.setVisibility(android.view.View.GONE);
+
+        img_tab_countries.setColorFilter(android.graphics.Color.parseColor("#448AFF"));
+        tv_tab_countries.setTextColor(android.graphics.Color.parseColor("#448AFF"));
+
+        img_tab_about.setColorFilter(android.graphics.Color.parseColor("#5A6072"));
+        tv_tab_about.setTextColor(android.graphics.Color.parseColor("#5A6072"));
+    }
+});
+
+tab_btn_about.setOnClickListener(new android.view.View.OnClickListener() {
+    @Override
+    public void onClick(android.view.View v) {
+        hideKeyboard.run();
+
+        layout_countries_tab.setVisibility(android.view.View.GONE);
+        layout_about_tab.setVisibility(android.view.View.VISIBLE);
+
+        img_tab_about.setColorFilter(android.graphics.Color.parseColor("#448AFF"));
+        tv_tab_about.setTextColor(android.graphics.Color.parseColor("#448AFF"));
+
+        img_tab_countries.setColorFilter(android.graphics.Color.parseColor("#5A6072"));
+        tv_tab_countries.setTextColor(android.graphics.Color.parseColor("#5A6072"));
+    }
+});
+final android.app.Dialog loadingDialog = new android.app.Dialog(MainActivity.this);
+loadingDialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE);
+loadingDialog.setCancelable(false);
+
+if (loadingDialog.getWindow() != null) {
+    loadingDialog.getWindow().setBackgroundDrawable(
+        new android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT)
+    );
+}
+
+androidx.cardview.widget.CardView dCard =
+    new androidx.cardview.widget.CardView(MainActivity.this);
+
+dCard.setCardBackgroundColor(android.graphics.Color.parseColor("#1A1C23"));
+dCard.setRadius((int) (16 * density));
+dCard.setCardElevation((int) (6 * density));
+
+android.widget.LinearLayout dLayout =
+    new android.widget.LinearLayout(MainActivity.this);
+
+dLayout.setOrientation(android.widget.LinearLayout.HORIZONTAL);
+dLayout.setPadding(
+    (int) (20 * density),
+    (int) (18 * density),
+    (int) (24 * density),
+    (int) (18 * density)
+);
+dLayout.setGravity(android.view.Gravity.CENTER_VERTICAL);
+
+ProgressBar pb = new ProgressBar(MainActivity.this);
+
+android.widget.LinearLayout.LayoutParams pbLp =
+    new android.widget.LinearLayout.LayoutParams(
+        (int) (36 * density),
+        (int) (36 * density)
+    );
+
+pbLp.setMargins(0, 0, (int) (16 * density), 0);
+pb.setLayoutParams(pbLp);
+dLayout.addView(pb);
+
+android.widget.TextView dText =
+    new android.widget.TextView(MainActivity.this);
+
+dText.setText("Loading categories...");
+dText.setTextColor(android.graphics.Color.WHITE);
+dText.setTextSize(15);
+dText.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+dLayout.addView(dText);
+
+dCard.addView(dLayout);
+loadingDialog.setContentView(dCard);
+loadingDialog.show();
+
+final java.util.List<java.util.HashMap<String, String>> allCountries =
+    java.util.Collections.synchronizedList(
+        new java.util.ArrayList<java.util.HashMap<String, String>>()
+    );
+
+final java.util.List<java.util.HashMap<String, String>> displayCountries =
+    java.util.Collections.synchronizedList(
+        new java.util.ArrayList<java.util.HashMap<String, String>>()
+    );
+
+final android.widget.BaseAdapter adapter =
+    new android.widget.BaseAdapter() {
+
+    @Override
+    public int getCount() {
+        return displayCountries.size();
+    }
+
+    @Override
+    public Object getItem(int pos) {
+        return (pos >= 0 && pos < displayCountries.size())
+            ? displayCountries.get(pos) : null;
+    }
+
+    @Override
+    public long getItemId(int pos) {
+        return pos;
+    }
+
+    @Override
+    public android.view.View getView(
+        int pos,
+        android.view.View convertView,
+        android.view.ViewGroup parent
+    ) {
+
+        if (convertView == null) {
+
+            androidx.cardview.widget.CardView card =
+                new androidx.cardview.widget.CardView(MainActivity.this);
+
+            card.setCardBackgroundColor(
+                android.graphics.Color.parseColor("#1A1C23")
+            );
+            card.setRadius((int) (12 * density));
+            card.setCardElevation((int) (2 * density));
+            card.setUseCompatPadding(false);
+
+            android.widget.AbsListView.LayoutParams cardLp =
+                new android.widget.AbsListView.LayoutParams(
+                    android.widget.AbsListView.LayoutParams.MATCH_PARENT,
+                    (int) (54 * density)
+                );
+
+            card.setLayoutParams(cardLp);
+
+            android.widget.LinearLayout row =
+                new android.widget.LinearLayout(MainActivity.this);
+
+            row.setOrientation(android.widget.LinearLayout.HORIZONTAL);
+            row.setPadding(
+                (int) (14 * density), 0,
+                (int) (16 * density), 0
+            );
+            row.setGravity(android.view.Gravity.CENTER_VERTICAL);
+
+            row.setLayoutParams(
+                new android.view.ViewGroup.LayoutParams(-1, -1)
+            );
+
+            android.widget.TextView tvFlag =
+                new android.widget.TextView(MainActivity.this);
+
+            tvFlag.setTextSize(24);
+            tvFlag.setGravity(android.view.Gravity.CENTER);
+
+            android.widget.LinearLayout.LayoutParams flagLp =
+                new android.widget.LinearLayout.LayoutParams(
+                    (int) (38 * density),
+                    (int) (38 * density)
+                );
+
+            flagLp.setMargins(0, 0, (int) (12 * density), 0);
+            tvFlag.setLayoutParams(flagLp);
+            tvFlag.setTag("tv_flag");
+            row.addView(tvFlag);
+
+            android.widget.TextView tvName =
+                new android.widget.TextView(MainActivity.this);
+
+            tvName.setTextColor(android.graphics.Color.WHITE);
+            tvName.setTextSize(15);
+            tvName.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            tvName.setSingleLine(true);
+            tvName.setEllipsize(android.text.TextUtils.TruncateAt.END);
+
+            tvName.setLayoutParams(
+                new android.widget.LinearLayout.LayoutParams(0, -2, 1.0f)
+            );
+
+            tvName.setTag("tv_name");
+            row.addView(tvName);
+
+            androidx.cardview.widget.CardView countCard =
+                new androidx.cardview.widget.CardView(MainActivity.this);
+
+            countCard.setCardBackgroundColor(
+                android.graphics.Color.parseColor("#152438")
+            );
+
+            countCard.setRadius((int) (10 * density));
+            countCard.setCardElevation(0);
+
+            android.widget.LinearLayout.LayoutParams countCardLp =
+                new android.widget.LinearLayout.LayoutParams(-2, -2);
+
+            countCardLp.setMargins(0, 0, (int) (10 * density), 0);
+            countCard.setLayoutParams(countCardLp);
+            countCard.setTag("card_count");
+
+            android.widget.TextView tvCount =
+                new android.widget.TextView(MainActivity.this);
+
+            tvCount.setTextColor(
+                android.graphics.Color.parseColor("#448AFF")
+            );
+            tvCount.setTextSize(11);
+            tvCount.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+
+            tvCount.setPadding(
+                (int) (10 * density), (int) (4 * density),
+                (int) (10 * density), (int) (4 * density)
+            );
+
+            tvCount.setTag("tv_count");
+            countCard.addView(tvCount);
+            row.addView(countCard);
+
+            android.widget.ImageView arrow =
+                new android.widget.ImageView(MainActivity.this);
+
+            arrow.setImageResource(android.R.drawable.ic_media_play);
+            arrow.setColorFilter(
+                android.graphics.Color.parseColor("#3F4555")
+            );
+
+            arrow.setLayoutParams(
+                new android.widget.LinearLayout.LayoutParams(
+                    (int) (12 * density),
+                    (int) (12 * density)
+                )
+            );
+
+            row.addView(arrow);
+            card.addView(row);
+
+            convertView = card;
+        }
+
+        if (pos >= displayCountries.size()) {
+            return convertView;
+        }
+
+        final java.util.HashMap<String, String> map =
+            displayCountries.get(pos);
+
+        if (map == null) {
+            return convertView;
+        }
+
+        final android.widget.TextView tvFlag =
+            (android.widget.TextView) convertView.findViewWithTag("tv_flag");
+
+        final android.widget.TextView tvName =
+            (android.widget.TextView) convertView.findViewWithTag("tv_name");
+
+        final androidx.cardview.widget.CardView cardCount =
+            (androidx.cardview.widget.CardView) convertView.findViewWithTag("card_count");
+
+        final android.widget.TextView tvCount =
+            (android.widget.TextView) convertView.findViewWithTag("tv_count");
+
+        tvName.setText(map.get("name"));
+        tvFlag.setText(map.get("flag"));
+
+        tvCount.setText("CUSTOM");
+        cardCount.setVisibility(android.view.View.VISIBLE);
+
+        return convertView;
+    }
+};
+
+list_countries.setAdapter(adapter);
+// Only 3 Custom Categories
+final java.util.ArrayList<java.util.HashMap<String, String>> tempList =
+    new java.util.ArrayList<>();
+
+// Myanmar
+java.util.HashMap<String, String> mm =
+    new java.util.HashMap<String, String>();
+
+mm.put("name", "Myanmar");
+mm.put("code", "MM");
+mm.put("flag", "🇲🇲");
+tempList.add(mm);
+
+// Movie
+java.util.HashMap<String, String> movie =
+    new java.util.HashMap<String, String>();
+
+movie.put("name", "Movie");
+movie.put("code", "MOVIE");
+movie.put("flag", "🎬");
+tempList.add(movie);
+
+// Thai
+java.util.HashMap<String, String> thai =
+    new java.util.HashMap<String, String>();
+
+thai.put("name", "Thai");
+thai.put("code", "TH");
+thai.put("flag", "🇹🇭");
+tempList.add(thai);
+
+// Update Category List
+synchronized (allCountries) {
+    allCountries.clear();
+    allCountries.addAll(tempList);
+}
+
+synchronized (displayCountries) {
+    displayCountries.clear();
+    displayCountries.addAll(tempList);
+}
+
+adapter.notifyDataSetChanged();
+
+if (loadingDialog.isShowing()) {
+    loadingDialog.dismiss();
+}
+
+// Search
+edit_search.addTextChangedListener(new android.text.TextWatcher() {
+
+    public void beforeTextChanged(CharSequence s, int a, int b, int c) {}
+
+    public void onTextChanged(CharSequence s, int a, int b, int c) {
+
+        String q = s.toString().toLowerCase().trim();
+
+        btn_clear_main.setVisibility(
+            q.length() > 0
+                ? android.view.View.VISIBLE
+                : android.view.View.GONE
+        );
+
+        synchronized (displayCountries) {
+
+            displayCountries.clear();
+
+            synchronized (allCountries) {
+
+                for (java.util.HashMap<String, String> item : allCountries) {
+
+                    if (item != null && item.get("name") != null) {
+
+                        if (item.get("name").toLowerCase().contains(q)) {
+                            displayCountries.add(item);
+                        }
+                    }
+                }
+            }
+        }
+
+        adapter.notifyDataSetChanged();
+    }
+
+    public void afterTextChanged(android.text.Editable s) {}
+});
+
+// Category Click
+list_countries.setOnItemClickListener(
+    new android.widget.AdapterView.OnItemClickListener() {
+
+        @Override
+        public void onItemClick(
+            android.widget.AdapterView<?> p,
+            android.view.View v,
+            int pos,
+            long id
+        ) {
+
+            hideKeyboard.run();
+
+            if (pos >= 0 && pos < displayCountries.size()) {
+
+                java.util.HashMap<String, String> item =
+                    displayCountries.get(pos);
+
+                if (item != null) {
+
+                    android.content.Intent intent =
+                        new android.content.Intent(
+                            MainActivity.this,
+                            ChannelsActivity.class
+                        );
+
+                    intent.putExtra("country_code", item.get("code"));
+                    intent.putExtra("country_name", item.get("name"));
+
+                    startActivity(intent);
+
+                    overridePendingTransition(
+                        android.R.anim.fade_in,
+                        android.R.anim.fade_out
+                    );
+                }
+            }
+        }
+    }
+);
