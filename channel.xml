@@ -348,7 +348,7 @@ if ("MM".equalsIgnoreCase(code)) {
 
 } else if ("CHINA".equalsIgnoreCase(code)) {
 
-    m3uUrl = "https://raw.githubusercontent.com/sesukyothole/iptv-2026/refs/heads/main/tv.m3u;
+    m3uUrl = "https://raw.githubusercontent.com/sesukyothole/iptv-2026/refs/heads/main/tv.m3u";
             
 } else {
 
