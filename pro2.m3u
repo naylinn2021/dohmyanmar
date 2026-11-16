@@ -35,6 +35,11 @@ http://proxy-v.rctiplus.id/live/GvisionTV/rockent/index.m3u8?auth_key=1794352256
 http://proxy-v.rctiplus.id/live/GvisionTV/celestialclassic/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1IiFQ20EpoQT0L1ONRavc3LrzisP2FyzegPBDBmXng&s" group-title="MOVIE", HUNAN
+https://proxy-v.rctiplus.id/live/ios/hunan/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com/
+
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFV0QZWG3bkS4VbNKqxBUo2NUslQ05b28kFf2haPNbg&s=10" group-title="MOVIE", CELESTIAL MOVIES
 http://proxy-v.rctiplus.id/live/GvisionTV/celestialmovies/index.m3u8?auth_key=1794352256-042d51a75624e0b546da3ec6ca91c692-0-1c3c719041beda13cc5867422b3b14f3|Referer=https://m.rctiplus.com
 
