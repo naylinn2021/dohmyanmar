@@ -3,11 +3,12 @@
 https://live-stream.dvb.no/hls/stream_src/index.m3u8
 #EXTINF:-1 tvg-id="MaharTV.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ7Z4o_Y3_KHO3aOXjjQ0bxscwJS9Tkc8eQpSDpBWIdX75XXkSJEsVRQ&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MAHAR TV
 https://ygncdn.com/live/mahar/playlist.m3u8
+
 #EXTINF:-1 tvg-id="FortuneTV.mm@SD" tvg-logo="https://i.imgur.com/MM5evnD.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",Fortune TV
 http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
 
 #EXTINF:-1 tvg-id="MitvSD.mm@SD" tvg-logo="https://mytel-img.oss-ap-southeast-1.aliyuncs.com/mytel-image/2026/08/03/10/1785726635690/d38ff47fc49b_640_360.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",MITV S & D
-https://live-evg6.tv360.mytel.com.mm/8-T7BNcTV7JJ0GlFFylN8A/1793395623/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/master.m3u8?manifestfilter=video_bitrate:1-4400000&uid=4390|Referer=https://m.tv360.mytel.com.mm/
+#https://live-evg6.tv360.mytel.com.mm/8-T7BNcTV7JJ0GlFFylN8A/1793395623/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/master.m3u8?manifestfilter=video_bitrate:1-4400000&uid=4390|Referer=https://m.tv360.mytel.com.mm/
 
 
 
@@ -20,7 +21,7 @@ https://mrtvott.com/cache/MRTV-HD/master.m3u8
 https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
 
 #EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV Entertainment
-https://live-evg6.tv360.mytel.com.mm/5E4Egu-6TtNdybdcsoAD7Q/1793395869/84c5b5825c0b8be4e02b7c14f99b0bc2---/cache/MRTV-Ent-HD/m3u8/cache_MRTV-Ent-HD_m3u8_hls_m3u8_MRTV-Ent-HD-TS-L.m3u8|Referer=https://m.tv360.mytel.com.mm/
+#https://live-evg6.tv360.mytel.com.mm/5E4Egu-6TtNdybdcsoAD7Q/1793395869/84c5b5825c0b8be4e02b7c14f99b0bc2---/cache/MRTV-Ent-HD/m3u8/cache_MRTV-Ent-HD_m3u8_hls_m3u8_MRTV-Ent-HD-TS-L.m3u8|Referer=https://m.tv360.mytel.com.mm/
 
 
 #EXTINF:-1 tvg-id="MRTVFarmer.mm@SD" tvg-logo="https://i.imgur.com/f4PWvrW.jpg" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Documentary",MRTV Farmer
