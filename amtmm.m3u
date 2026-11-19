@@ -1,0 +1,59 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",DVB TV
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-id="MaharTV.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ7Z4o_Y3_KHO3aOXjjQ0bxscwJS9Tkc8eQpSDpBWIdX75XXkSJEsVRQ&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MAHAR TV
+https://ygncdn.com/live/mahar/playlist.m3u8
+#EXTINF:-1 tvg-id="FortuneTV.mm@SD" tvg-logo="https://i.imgur.com/MM5evnD.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",Fortune TV
+http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
+
+#EXTINF:-1 tvg-id="MitvSD.mm@SD" tvg-logo="https://mytel-img.oss-ap-southeast-1.aliyuncs.com/mytel-image/2026/08/03/10/1785726635690/d38ff47fc49b_640_360.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",MITV S & D
+https://live-evg6.tv360.mytel.com.mm/8-T7BNcTV7JJ0GlFFylN8A/1793395623/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/master.m3u8?manifestfilter=video_bitrate:1-4400000&uid=4390|Referer=https://m.tv360.mytel.com.mm/
+
+
+
+
+#EXTINF:-1 tvg-id="HluttawSD.mm@SD" tvg-logo="https://i.imgur.com/Gffq8ks.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",Hluttaw S & D
+https://mrtvott.com/cache/MRTV-HLUTTAW/master.m3u8
+#EXTINF:-1 tvg-id="MRTV.mm@SD" tvg-logo="https://i.imgur.com/uyv7oJH.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="General",MRTV
+https://mrtvott.com/cache/MRTV-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV Entertainment
+https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV Entertainment
+https://live-evg6.tv360.mytel.com.mm/5E4Egu-6TtNdybdcsoAD7Q/1793395869/84c5b5825c0b8be4e02b7c14f99b0bc2---/cache/MRTV-Ent-HD/m3u8/cache_MRTV-Ent-HD_m3u8_hls_m3u8_MRTV-Ent-HD-TS-L.m3u8|Referer=https://m.tv360.mytel.com.mm/
+
+
+#EXTINF:-1 tvg-id="MRTVFarmer.mm@SD" tvg-logo="https://i.imgur.com/f4PWvrW.jpg" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Documentary",MRTV Farmer
+https://mrtvott.com/cache/MRTV-FARMER/master.m3u8
+#EXTINF:-1 tvg-id="MRTVNews.mm@SD" tvg-logo="https://i.imgur.com/5eK8Bc4.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",MRTV News
+https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVNRC.mm@SD" tvg-logo="https://i.imgur.com/5aLFslk.jpg" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Culture",MRTV NRC
+https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-logo="https://i.imgur.com/cFTR4kC.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Sports",MRTV Sports
+https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
+#EXTINF:-1 tvg-id="MWD.mm@SD" tvg-logo="https://i.imgur.com/zyTQG9F.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="General",MWD
+http://203.81.84.130/hls/mwd/index.m3u8
+#EXTINF:-1 tvg-id="MWDDocumentary.mm@SD" tvg-logo="https://i.imgur.com/4XV7cjU.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Documentary",MWD Documentary
+http://203.81.84.130/hls/mwd_document/index.m3u8
+#EXTINF:-1 tvg-id="MWDMovies.mm@SD" tvg-logo="https://i.imgur.com/5KRsqeF.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Movies",MWD Movies
+http://203.81.84.130/hls/mwd_movie/index.m3u8
+#EXTINF:-1 tvg-id="MWDVariety.mm@SD" tvg-logo="https://i.imgur.com/wb3Ku8X.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MWD Variety
+http://203.81.84.130/hls/mwd_variety/index.m3u8
+
+#EXTINF:-1 tvg-id="MRTV4.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitcgKT4OY44ARo-57ErjSk6auxnz446FOGCPoC-gqunnb84_CDzZ5vg&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV4
+https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/index.m3u8
+#referer=https://www.pyoneplay.com/
+
+#EXTINF:-1 tvg-id="MRTV4.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitcgKT4OY44ARo-57ErjSk6auxnz446FOGCPoC-gqunnb84_CDzZ5vg&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV4
+https://livedth.95tv.live/memfs/949c1188-f5cc-434e-9c3b-321d2564f7e3_output_0.m3u8?session=9KhYj7wn3NtTdvSZPxNe7B
+#referer=https://m.tv360.mytel.com.mm/
+
+
+#EXTINF:-1 tvg-id="Channel7.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtcO3Mx_afWYhM4ryAp8-sspgvzbQkgpGBNP5iwFV3inK0l4nEDdqoA&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",channel7
+https://live.pyoneplay.com/live/01m2sr3kyn6bztz3xk02w3t7pn/index.m3u8
+#referer=https://www.pyoneplay.com/
+
+
+#EXTINF:-1 tvg-id="Channel7.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtcO3Mx_afWYhM4ryAp8-sspgvzbQkgpGBNP5iwFV3inK0l4nEDdqoA&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",channel7
+https://livedth.95tv.live/memfs/cb0e6dd3-6d4d-4fa7-9adc-6f2e3e6544e1_output_0.m3u8?session=E6zSMJtVWc4TG2gc84ANSW
+#referer=https://m.tv360.mytel.com.mm/
