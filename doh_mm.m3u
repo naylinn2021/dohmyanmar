@@ -1,50 +1,23 @@
 #EXTM3U
 # ===== SOURCE 2 =====
-#EXTINF:-1 group-title="EVENT 015/NOVEMBER/2026" tvg-logo="https://shorter.me/JHxeb", 02:15 WIB Portugal vs Denmark
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 07:00 PM မန်စီးတီး vs ဖူဟမ်
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
-#EXTINF:-1 group-title="EVENT 015/NOVEMBER/2026" tvg-logo="https://shorter.me/JHxeb", 02:15 WIB Swedia vs Bosnia Herzegovina
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 09:30 PM ချဲလ်စီး vs လိဒ်
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hPdEpVz0Qlpd-V0HSeB8oSLasZaiITSyfUPwfN0VWA&s",🔴 Manchester _ Aston Villa 11:00 PM
-#https://pull.fmp.live/live/live_61781_lud.m3u8?auth_key=1794166869-0-0-ebc10d6079670083a458c99816a17295|Referer=https://m.fmp.live/
-
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hPdEpVz0Qlpd-V0HSeB8oSLasZaiITSyfUPwfN0VWA&s",🔴 Manchester _ Aston Villa 11:00 PM
-#https://live2.jorvakstreamcache.com/live/channel1.m3u8|Referer=https://xlz.domainkqt.cc/
-
-
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/2E6e8",🔴SERIE A Internazionale vs Como 11:30 PM
+#EXTINF:-1 group-title="EVENT 022/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 12:00 AM နယူးကာဆယ် vs အာဆင်နယ်
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
 
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://shorter.me/2E6e8",🔴SERIE A 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",19:00 ချဲလ်စီး - မန်ယူ
-#https://live05.miekgo.app/live/08552895.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRsg2iEBcyV2rYJ_T-4TyLsu8I4pbEGFEYXF0cv1tcw&s=10" group-title="LIVE EVENT",21:30 မန်စီးတီး - ဘရိုက်တန်
-#https://pull.fmp.live/live/live_60408_lud.m3u8?auth_key=1793470019-0-0-093b32dfc84c0c6c4a4e96ec07c3d6eb
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNZNbdPnUvW2xJLyOxkqfxXzB-ySr1yWBL86XLxOFEA&s" group-title="1.LIVE",လီပါပူး_ချဲလ်စီး
-#https://pull.fmp.live/live/live_59991_lud.m3u8?auth_key=1793228038-0-0-603ed619413114a91e3ee93f2fb3c61f|Referer=https://m.fmp.live/
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNZNbdPnUvW2xJLyOxkqfxXzB-ySr1yWBL86XLxOFEA&s" group-title="1.LIVE",ပရီးမီးယားလိဂ် ၂
-#https://pull.fmp.live/live/live_59542_lud.m3u8?auth_key=1792947325-0-0-ee104ead9495ecaa79fc9501d9d685bf|Referer=https://m.fmp.live/
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNZNbdPnUvW2xJLyOxkqfxXzB-ySr1yWBL86XLxOFEA&s" group-title="1.LIVE", LIVE 3
-#https://play.e39azy.com/live/329C51BBFE9017863B7BAC6DEB8B13A6.m3u8|Referer=https://www.goaldaddythai.info/
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNZNbdPnUvW2xJLyOxkqfxXzB-ySr1yWBL86XLxOFEA&s" group-title="1.LIVE", LIVE 3
-#https://pull.fmp.live/sla/1-6a90f2da14cfe5ec671d76f2.m3u8?auth_key=1792632782-0-0-e1b1ee5cfb7d3e604e7643f5b91f412b|Referer=https://m.fmp.live/
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/T967lY3.jpeg" group-title="1.LIVE", Premier League 
-#https://hwyypull.ncctrials.com/live/stream-613431_lhd.flv?auth_key=1792340645-0-0-b032683cc9d8f8e0dd6500b37031c0b6
 
 
 #####################################
 
-MYANMAR TV FTA
+            MYANMAR TV FTA
 
 =====================================
 
