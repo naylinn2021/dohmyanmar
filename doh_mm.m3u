@@ -12,6 +12,9 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 #EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 09:30 PM ချဲလ်စီး vs လိဒ်
 https://pull.fmp.live/live/live_62889_lud.m3u8?auth_key=1795284655-0-0-0a891acb62637308c313df6c4df39959|Referer=https://m.fmp.live/
 
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 09:30 PM ချဲလ်စီး vs လိဒ်
+https://api.olelive.com/dis/sport/778fe587cc5efd012f9086a22d4c07eb/hls.m3u8?token=8910808f60615e10c71130111343d2c5|Referer=https://www.olevod.com/
+
 #EXTINF:-1 group-title="EVENT 022/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 12:00 AM နယူးကာဆယ် vs အာဆင်နယ်
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 
