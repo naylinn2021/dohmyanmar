@@ -2,3 +2,7 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3000000
 https://newlive.olelive.com/sport/b01df5b51da6a958705e7df06dab701c/hls.m3u8?token=ee90804914115ad4246128533483f0bf|Referer=https://www.olevod.com/
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=6000000
+https://newlive.olelive.com/sport/b01df5b51da6a958705e7df06dab701c/hls.m3u8?token=ee90804914115ad4246128533483f0bf|Referer=https://www.olevod.com/
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=9000000
+https://newlive.olelive.com/sport/b01df5b51da6a958705e7df06dab701c/hls.m3u8?token=ee90804914115ad4246128533483f0bf|Referer=https://www.olevod.com/
