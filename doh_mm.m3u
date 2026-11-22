@@ -1,7 +1,7 @@
 #EXTM3U
 # ===== SOURCE 2 =====
 #EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 07:00 PM မန်စီးတီး vs ဖူဟမ်
-https://pull.fmp.live/live/live_62812_lud.m3u8?auth_key=1795273775-0-0-d00fb2cb55b93a59241ed94174c21f0a|Referer=https://m.fmp.live/
+http://193.47.62.55:80/hls/4GGGG.m3u8|Referer=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 07:00 PM မန်စီးတီး vs ဖူဟမ်
 https://www.rtmpcdn.com/live/migu1.m3u8|Referer=http://www.fawanews.sc/
