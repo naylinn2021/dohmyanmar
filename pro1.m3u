@@ -1,0 +1,265 @@
+#EXTM3U
+# ===== SOURCE 2 =====
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 11:00 PM လီပါပူး vs မန်ယူ
+https://pull.fmp.live/live/live_63140_lud.m3u8?auth_key=1795376110-0-0-7bc110e63ff3a5e3eb0e8cbf6e93745b|referer=https://m.fmp.live/
+
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 11:00 PM လီပါပူး vs မန်ယူ
+https://hwyypull.ncctrials.com/live/stream-597728_lsd.flv?auth_key=1795367529-0-0-eeee05207eb3f385269b55f564a1e2af|Referer=https://m.7zb8.live/
+
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 11:00 PM လီပါပူး vs မန်ယူ
+https://live2.tanrixstreamorigin.com/live/channel1.m3u8|referrer=https://xlz.domainkqt.cc/
+
+
+
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://shorter.me/2E6e8",🔴SERIE A 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+
+
+#EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://shorter.me/2E6e8",🔴SERIE A 
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+
+
+
+#####################################
+
+            MYANMAR TV FTA
+
+=====================================
+
+#EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",DVB TV
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-id="MaharTV.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ7Z4o_Y3_KHO3aOXjjQ0bxscwJS9Tkc8eQpSDpBWIdX75XXkSJEsVRQ&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MAHAR TV
+https://ygncdn.com/live/mahar/playlist.m3u8
+#EXTINF:-1 tvg-id="FortuneTV.mm@SD" tvg-logo="https://i.imgur.com/MM5evnD.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",Fortune TV
+http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
+
+#EXTINF:-1 tvg-id="MitvSD.mm@SD" tvg-logo="https://mytel-img.oss-ap-southeast-1.aliyuncs.com/mytel-image/2026/08/03/10/1785726635690/d38ff47fc49b_640_360.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",MITV S & D
+https://live-evg6.tv360.mytel.com.mm/8-T7BNcTV7JJ0GlFFylN8A/1793395623/3cff9660560091a0258f05f2869b1d7b---/cache/MITV/master.m3u8?manifestfilter=video_bitrate:1-4400000&uid=4390|Referer=https://m.tv360.mytel.com.mm/
+
+
+
+
+#EXTINF:-1 tvg-id="HluttawSD.mm@SD" tvg-logo="https://i.imgur.com/Gffq8ks.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Legislative",Hluttaw S & D
+https://mrtvott.com/cache/MRTV-HLUTTAW/master.m3u8
+#EXTINF:-1 tvg-id="MRTV.mm@SD" tvg-logo="https://i.imgur.com/uyv7oJH.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="General",MRTV
+https://mrtvott.com/cache/MRTV-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV Entertainment
+https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV Entertainment
+https://live-evg6.tv360.mytel.com.mm/5E4Egu-6TtNdybdcsoAD7Q/1793395869/84c5b5825c0b8be4e02b7c14f99b0bc2---/cache/MRTV-Ent-HD/m3u8/cache_MRTV-Ent-HD_m3u8_hls_m3u8_MRTV-Ent-HD-TS-L.m3u8|Referer=https://m.tv360.mytel.com.mm/
+
+
+#EXTINF:-1 tvg-id="MRTVFarmer.mm@SD" tvg-logo="https://i.imgur.com/f4PWvrW.jpg" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Documentary",MRTV Farmer
+https://mrtvott.com/cache/MRTV-FARMER/master.m3u8
+#EXTINF:-1 tvg-id="MRTVNews.mm@SD" tvg-logo="https://i.imgur.com/5eK8Bc4.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="News",MRTV News
+https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVNRC.mm@SD" tvg-logo="https://i.imgur.com/5aLFslk.jpg" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Culture",MRTV NRC
+https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
+#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-logo="https://i.imgur.com/cFTR4kC.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Sports",MRTV Sports
+https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
+#EXTINF:-1 tvg-id="MWD.mm@SD" tvg-logo="https://i.imgur.com/zyTQG9F.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="General",MWD
+http://203.81.84.130/hls/mwd/index.m3u8
+#EXTINF:-1 tvg-id="MWDDocumentary.mm@SD" tvg-logo="https://i.imgur.com/4XV7cjU.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Documentary",MWD Documentary
+http://203.81.84.130/hls/mwd_document/index.m3u8
+#EXTINF:-1 tvg-id="MWDMovies.mm@SD" tvg-logo="https://i.imgur.com/5KRsqeF.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Movies",MWD Movies
+http://203.81.84.130/hls/mwd_movie/index.m3u8
+#EXTINF:-1 tvg-id="MWDVariety.mm@SD" tvg-logo="https://i.imgur.com/wb3Ku8X.png" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MWD Variety
+http://203.81.84.130/hls/mwd_variety/index.m3u8
+
+#EXTINF:-1 tvg-id="MRTV4.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitcgKT4OY44ARo-57ErjSk6auxnz446FOGCPoC-gqunnb84_CDzZ5vg&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV4
+https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/index.m3u8
+#referer=https://www.pyoneplay.com/
+
+#EXTINF:-1 tvg-id="MRTV4.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitcgKT4OY44ARo-57ErjSk6auxnz446FOGCPoC-gqunnb84_CDzZ5vg&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",MRTV4
+https://livedth.95tv.live/memfs/949c1188-f5cc-434e-9c3b-321d2564f7e3_output_0.m3u8?session=9KhYj7wn3NtTdvSZPxNe7B
+#referer=https://m.tv360.mytel.com.mm/
+
+
+#EXTINF:-1 tvg-id="Channel7.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtcO3Mx_afWYhM4ryAp8-sspgvzbQkgpGBNP5iwFV3inK0l4nEDdqoA&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",channel7
+https://live.pyoneplay.com/live/01m2sr3kyn6bztz3xk02w3t7pn/index.m3u8
+#referer=https://www.pyoneplay.com/
+
+
+#EXTINF:-1 tvg-id="Channel7.mm@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtcO3Mx_afWYhM4ryAp8-sspgvzbQkgpGBNP5iwFV3inK0l4nEDdqoA&s" tvg-country="MM" group-title="Myanmar" tvg-language="Burmese" tvg-genre="Entertainment",channel7
+https://livedth.95tv.live/memfs/cb0e6dd3-6d4d-4fa7-9adc-6f2e3e6544e1_output_0.m3u8?session=E6zSMJtVWc4TG2gc84ANSW
+#referer=https://m.tv360.mytel.com.mm/
+
+
+################ SPORT #############
+
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="28463ea187c2a097ccd11272a3fc7f92" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 1 
+http://stream.mcquack.net/130/index.m3u8
+
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="918474e98bd45af70ef10c7b0b012e08" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 2 
+http://stream.mcquack.net/142/index.m3u8
+
+#EXTINF:-1 group-title="2.SPORT" tvg-uid="cca0c0eb4e02544aee3f9a1a81fbbae8" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 3 
+http://stream.mcquack.net/185/index.m3u8
+
+#EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BvKgxh4FSG4-NXps17L5JKnicD7lr3pVnisLzeFiIjCuxEwKLA1H8FI&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",CCTV SPORT
+http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271e1d103cf4854f
+
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="2.SPORT",Star Sports Select 1 HD (1080p)
+#http://103.151.60.162:2122/play/a026/index.m3u8?hls
+
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="2.SPORT",Star Sports Select 2 HD (1080p)
+#http://103.151.60.162:2122/play/a027/index.m3u8?hls
+
+
+#EXTINF:-1 tvg-id="SonySportsTen1.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 1 (576p)
+#http://103.151.60.162:2122/play/a01c/index.m3u8?hls
+
+
+#EXTINF:-1 tvg-id="SonySportsTen2.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 2 (576p)
+#http://103.151.60.162:2122/play/a01b/index.m3u8?hls
+
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="2.SPORT",Sony Sports Ten 3 Hindi (576p)
+#http://103.151.60.162:2122/play/a01t/index.m3u8?hls
+
+#EXTINF:-1 tvg-id="SonySportsTen4.in@Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyTen4Kan.png" group-title="2.SPORT",Sony Sports Ten 4 Kannada (576p)
+#http://103.151.60.162:2122/play/a021/index.m3u8?hls
+
+#EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="2.SPORT",Sony Sports Ten 5 (576p)
+#http://103.151.60.162:2122/play/a028/index.m3u8?hls
+
+#EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwDnIyxukFVCEBhYiBb5bj7pJnnXhFbVojsNalF-Dy2g&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",TEN1 HD
+#http://103.185.24.134:3001/SonyTenSports1/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" tvg-country="IN" group-title="2.SPORT" tvg-language="Bengali" tvg-genre="2.SPORT",Star Sports Select 1 HD 
+#http://103.151.60.162:2122/play/a026/index.m3u8?hls 
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="2.SPORT",Star Sports Select 2 
+#https://tvsen7.aynascope.net/ssport2hd/index.m3u8 
+
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" tvg-country="IN" group-title="2.SPORT" tvg-language="English" tvg-genre="SPORT",Star Sports Select 2 HD 
+#http://103.151.60.162:2122/play/a027/index.m3u8?hls #
+
+#EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
+https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+
+#EXTINF:-1 group-title="2.SPORT" tvg-logo="",LIVE SPORT
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drmScheme=clearkey&drmLicense=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+
+#EXTINF:-1 tvg-logo="" group-title="2.SPORT",BeIN ENGLISH
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+
+#EXTINF:-1 tvg-logo="" group-title="2.SPORT",CBS SPORTS - AQ
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+
+############## SPORT 2 ##############
+#EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://images.seeklogo.com/logo-png/7/1/italia-1-logo-png_seeklogo-74063.png",ITALIA 1 
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd|drmScheme=clearkey&drmLicense=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
+
+
+
+#EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://img1.wsimg.com/isteam/ip/d08bca69-c528-4050-938f-bd511aa0a61f/blob-0004.png", ACTION SPORTS 1 (DISHOME) 
+https://ottlive.dishhome.com.np/protected/vVnVkZ4Bnu3lGwDQJxH-/dash/manifest.mpd|drmScheme=clearkey&drmLicense=2bb7f4489e5f421eb0de90035cffb2bc:96b09b69c638dac184f42910e0095933
+
+
+#EXTINF:-1 group-title="⭐⭐SPORTS⭐⭐" tvg-logo="https://img1.wsimg.com/isteam/ip/d08bca69-c528-4050-938f-bd511aa0a61f/blob-0004.png", ACTION SPORTS 2 (DISHOME) 
+https://ottlive.dishhome.com.np/protected/BlnekZ4Bnu3lGwDQwBL2/dash/manifest.mpd|drmScheme=clearkey&drmLicense=e6136af0960e4fb8b535dd6b1dd307c8:7e73113b6fbcc167612a0b2e58715bd8
+
+
+#EXTINF:-1 tvg-id="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-ljDXFQTDIcDi2aVDKhagkpxxGCgah67kBRLc2Y4QedMA_YPoHlSSCA&s=10" group-title="⭐⭐SPORTS⭐⭐",Kanal 1 Extra 🇸🇰 
+https://dash2.antik.sk/stream/hisi_as2/playlist_cbcs.mpd|drmScheme=clearkey&drmLicense=https://drm.antik.sk/widevine/key 
+
+#EXTINF:-1 tvg-id="Arena Sport 4 Premium.ba" tvg-logo="https://i.ibb.co.com/VpY4kD2s/arena4prm.png" group-title="⭐⭐SPORTS⭐⭐", ARENA SPORT 4 PREMIUM 🇭🇷 
+https://webtvstream.bhtelecom.ba/hls15/as_premium4.mpd?n=browsernull-cdn.sam.net|drmScheme=clearkey&drmLicense=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d 
+
+#EXTINF:-1 tvg-id="Arena Sport 5 Premium.ba" tvg-logo="https://i.ibb.co.com/204gLGrB/arena5prm.png" group-title="⭐⭐SPORTS⭐⭐", ARENA SPORT 5 PREMIUM 🇭🇷 
+https://webtvstream.bhtelecom.ba/hls15/as_premium5.mpd?n=browsernull-cdn.sam.net|drmScheme=clearkey&drmLicense=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d 
+
+#EXTINF:-1 tvg-id="Arenasport 7.ba" tvg-logo="https://i.ibb.co.com/dJ8M6jj/a7.png" group-title="⭐⭐SPORTS⭐⭐", ARENA SPORT 7 🇭🇷 
+https://webtvstream.bhtelecom.ba/hls10/arena7.mpd?n=browsernull-cdn.sam.net|drmScheme=clearkey&drmLicense=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
+
+
+#EXTINF:-1 tvg-id="TUDN" tvg-logo="https://corporate.univision.com/newco/wp-content/uploads/2019/05/TUDN_LOGO_COLOR.png" group-title="⭐⭐SPORTS⭐⭐",TUDN 🇲🇽  
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|drmScheme=clearkey&drmLicense=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411 
+
+
+#EXTINF:-1 tvg-id="VIX TUDN" tvg-logo="https://www.freepreview.tv/wp-content/uploads/2022/07/ViX_Logo.png" group-title="⭐⭐SPORTS⭐⭐",VIX TUDN 🇲🇽
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd|drmScheme=clearkey&drmLicense=cb308ff4c4ec835baa2956212507de52:aa45e839f15058df50342ace8d040a48
+
+
+
+############## NEWS #################
+
+
+INTERNATIONAL NEWS — ENGLISH
+
+=====================================
+
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" group-title="International News",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.m3u8
+
+
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" group-title="International News",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English" group-title="International News",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24 English" group-title="International News",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews English" group-title="International News",Euronews English
+https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" group-title="International News",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN" group-title="International News",CGTN
+
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+
+#EXTINF:-1 tvg-id="ABCNews.us" tvg-name="ABC News" group-title="International News",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+
+#EXTINF:-1 tvg-id="AfricanewsEnglish.cg" tvg-name="Africanews English" group-title="International News",Africanews English
+https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
+
+
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" group-title="International News",NHK World-Japan
+#https://nhkwlive.akamaized.net/hls/live/2003458/nhkwlive/index.m3u8
+
+####################################
+
+CARTOON KIDS
+
+=====================================
+
+#EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@SouthAtlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-country="" group-title="CARTOON" tvg-language="Spanish" tvg-genre="Animation",Cartoon Network Latin America South Atlantic 
+http://158.172.217.18:8000/play/a03a/index.m3u8 
+
+
+#EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@SouthPacific" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-country="BO" group-title="CARTOON" tvg-language="Spanish" tvg-genre="Animation",Cartoon Network Latin America South Pacific 
+http://45.167.1.138:8000/play/a00w 
+
+
+#EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-logo="https://i.imgur.com/ciTJrnl.png" tvg-country="INT" group-title="CARTOON" tvg-language="English" tvg-genre="Kids",ZooMoo 
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjFBxYvKgokc_M5y7E4zYNRm6mqlS05-8LVI4tA5qKGw&s" group-title="2.SPORT",BEIN SPORT 1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd|drmScheme=clearkey&drmLicense=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQog-geqUCCHUpzXmBuz8mNMYelmRqlOIPIkxGDuVkbbQ&s" group-title="2.SPORT",BEIN SPORT 2
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?||drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKlU-h0HQNJr_PrDdJK5exBySM9mPlPWSY6RulvQOEMA&s" group-title="2.SPORT",BEIN SPORT 3
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd||drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/mqed821604073947.png" group-title="2.SPORT", SPORT KLUB SI 1
+https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL1.m3u8
+
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/axtu9e1604073980.png" group-title="2.SPORT", SPORT KLUB SL 2
+https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL2.m3u8
+
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/0swmzk1604074014.png" group-title="2.SPORT", SPORT KLUB SI 3
+https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL3.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.crossed-flag-pins.com/animated-flag-gif/gifs/Myanmar_240-animated-flag-gifs.gif" group-title="အေးချမ်းပါစေ",မူပိုင်
+https://raw.githubusercontent.com/naylinn2021/dohmyanmar/main/aye_chan_par.mp4
