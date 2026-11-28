@@ -9,6 +9,19 @@ https://live05.wecile.app/live/97885009.m3u8?_t=1795868536901|Referer=https://ca
 #EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 9:30 PM မန်ချက်စတာ vs ဘရန့်ဖို့ဒ်
 https://live2.streamhaulcdn.com/livecdn/channel-5.m3u8|Referer=https://socolivezbn.tv/
 
+#EXTINF:-1 tvg-logo="https://iili.io/FtSMHX9.jpg" group-title="EVENT",[ Belum Mulai ] 7:30PM WIB Real Betis vs Rayo Vallecano | Spanish La Liga  TV#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; SM-S908U) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/R777AAAAA.m3u8
+
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/2120097007951917056/NFB9obas_400x400.jpg" group-title="LIVE EVENT",[ Belum Mulai ] 7:30PM WIB Las Palmas vs Andorra | Spanish Segunda Liga TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; SM-S908U) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.0.0 Mobile Safari/537.36#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/SASASAA.m3u8
+
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://iili.io/FtSMHX9.jpg",[Belum Mulai] 7:30PM WIB Real Betis vs Rayo Vallecano
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|drmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+
+
+
 
 #EXTINF:-1 group-title="EVENT 021/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDy5HPuJNTcie0NRECtnO-fpoCoWYuykqNUJwX6uBuA&s", 11:00 PM လီပါပူး vs မန်ယူ
 #https://live2.tanrixstreamorigin.com/live/channel1.m3u8|referrer=https://xlz.domainkqt.cc/
