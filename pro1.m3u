@@ -90,19 +90,19 @@ https://livedth.95tv.live/memfs/cb0e6dd3-6d4d-4fa7-9adc-6f2e3e6544e1_output_0.m3
 ################ SPORT #############
 
 #EXTINF:-1 group-title="2.SPORT" tvg-uid="28463ea187c2a097ccd11272a3fc7f92" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 1 
-http://27.124.71.27/beIN_Sports_1/index.m3u8
+#http://27.124.71.27/beIN_Sports_1/index.m3u8
 #http://stream.mcquack.net/130/index.m3u8
-http://27.124.71.27/beIN_Sports_1/index.m3u8
+#http://27.124.71.27/beIN_Sports_1/index.m3u8
 
 #EXTINF:-1 group-title="2.SPORT" tvg-uid="918474e98bd45af70ef10c7b0b012e08" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 2 
-http://27.124.71.27/beIN_Sports_2/index.m3u8
+#http://27.124.71.27/beIN_Sports_2/index.m3u8
 #http://stream.mcquack.net/142/index.m3u8
-http://27.124.71.27/beIN_Sports_2/index.m3u8
+#http://27.124.71.27/beIN_Sports_2/index.m3u8
 
 #EXTINF:-1 group-title="2.SPORT" tvg-uid="cca0c0eb4e02544aee3f9a1a81fbbae8" data-source="Gremani" tvg-logo="https://promo.matchtv.ru/img/brandbook/logo-match-bw.svg", MATCH TV 3 
-http://27.124.71.27/beIN_Sports_3/index.m3u8
+#http://27.124.71.27/beIN_Sports_3/index.m3u8
 #http://stream.mcquack.net/185/index.m3u8
-http://27.124.71.27/beIN_Sports_3/index.m3u8
+#http://27.124.71.27/beIN_Sports_3/index.m3u8
 
 #EXTINF:-1 tvg-id="sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BvKgxh4FSG4-NXps17L5JKnicD7lr3pVnisLzeFiIjCuxEwKLA1H8FI&s" tvg-country="MM" group-title="2.SPORT" tvg-language="Burmese" tvg-genre="SPORT",CCTV SPORT
 http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271e1d103cf4854f
@@ -145,6 +145,16 @@ http://173.208.187.18:82/live/fyzq.m3u8?jsbt=1791822059&jsbk=e50bffef6e638b33271
 
 #EXTINF:-1 tvg-id="monomax.id" tvg-logo="https://i.imgur.com/wRMKsvK.png" group-logo="https://i.imgur.com/uXqmPaD.png" group-title="2.SPORT", MONOMAX 🇹🇭 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+
+
+#EXTINF:-1 tvg-logo="http://pitek.diskon.cloud/gambar/forsat.jpg" group-title="2.SPORT",CCTV 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+http://107.150.60.122/live/cctv5hd.m3u8
+
+#EXTINF:-1 tvg-logo="http://pitek.diskon.cloud/gambar/forsat.jpg" group-title="2.SPORT",CCTV 5+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+http://107.150.60.122/live/cctv5p.m3u8
+
 
 #EXTINF:-1 group-title="2.SPORT" tvg-logo="",LIVE SPORT
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|drmScheme=clearkey&drmLicense=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
